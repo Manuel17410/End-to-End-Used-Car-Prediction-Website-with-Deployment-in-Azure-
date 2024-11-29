@@ -1,569 +1,459 @@
-name,year,miles,color,condition,price
-Lexus ES,2017,"138,015 miles","Unknown exterior, Unknown interior","1 accident reported, 2 Owners","$13,999"
-BMW X5,2019,"21,933 miles","White exterior, Black interior","No accidents reported, 1 Owner","$38,900"
-Toyota Camry,2020,"93,239 miles","Silver exterior, Black interior","1 accident reported, 1 Owner","$18,218"
-Subaru Ascent,2022,"25,721 miles","Gray exterior, Gray interior","No accidents reported, 1 Owner","$34,984"
-Mercedes-Benz GLB,2023,"5,791 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$42,400"
-Dodge Grand Caravan,2019,"89,118 miles","Gray exterior, Black interior","No accidents reported, 2 Owners","$12,650"
-Cadillac XT5,2019,"45,232 miles","White exterior, Beige interior","No accidents reported, 1 Owner","$20,094"
-Mercedes-Benz GLE,2020,"54,285 miles","White exterior, Black interior","No accidents reported, 2 Owners","$35,998"
-Toyota Corolla,2011,"64,526 miles","Gray exterior, Gray interior","2 accidents reported, 1 Owner","$11,420"
-Ford Explorer,2018,"54,327 miles","Black exterior, Black interior","1 accident reported, 2 Owners","$20,485"
-Toyota Corolla,2010,"110,394 miles","Gray exterior, Black interior","1 accident reported, 1 Owner","$8,499"
-Kia Forte,2020,"60,231 miles","Black exterior, Black interior","No accidents reported, 2 Owners","$13,900"
-Ford F-150,2020,"47,519 miles","White exterior, Gray interior","No accidents reported, 1 Owner","$30,930"
-Land Rover Defender,2020,"32,049 miles","Green exterior, Green interior","No accidents reported, 1 Owner","$59,998"
-Ford Econoline Cargo Van,2011,"152,825 miles","White exterior, Unknown interior","No accidents reported, 2 Owners","$9,998"
-Volvo XC60,2021,"21,348 miles","Blue exterior, Unknown interior","No accidents reported, 1 Owner","$33,691"
-Dodge Durango,2018,"82,734 miles","Black exterior, Black interior","No accidents reported, 2 Owners","$42,998"
-Toyota Corolla,2022,"17,868 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$20,299"
-Ford Escape,2021,"34,484 miles","White exterior, Gray interior","No accidents reported, 2 Owners","$16,540"
-Lexus RC,2016,"74,595 miles","Silver exterior, Black interior","1 accident reported, 2 Owners","$23,888"
-Honda Pilot,2021,"30,283 miles","Black exterior, Black interior","1 accident reported, 1 Owner","$31,187"
-Acura MDX,2020,"21,556 miles","White exterior, White interior","No accidents reported, 1 Owner","$31,795"
-Jeep Wrangler,2018,"27,646 miles","Red exterior, Black interior","1 accident reported, 2 Owners","$26,260"
-Ford Explorer Sport Trac,2009,"180,254 miles","Black exterior, Black interior","No accidents reported, 7 Owners","$7,995"
-Toyota RAV4,2019,"16,985 miles","Silver exterior, Gray interior","No accidents reported, 1 Owner","$28,599"
-Nissan Versa,2021,"64,380 miles","Gray exterior, Gray interior","No accidents reported, 1 Owner","$15,500"
-BMW 3 Series,2016,"70,102 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$14,999"
-BMW 3 Series,2016,"50,360 miles","Black exterior, Red interior","No accidents reported, 3 Owners","$17,450"
-Toyota Camry,2022,"27,681 miles","Silver exterior, Black interior","No accidents reported, 1 Owner","$20,499"
-Genesis G80,2022,"19,964 miles","Silver exterior, Black interior","No accidents reported, 1 Owner","$37,449"
-Mercedes-Benz CLA,2014,"58,783 miles","White exterior, Black interior","No accidents reported, 1 Owner","$16,999"
-Mercedes-Benz M-Class,2010,"135,592 miles","Black exterior, Black interior","No accidents reported, 2 Owners","$7,999"
-Toyota Camry,2021,"30,566 miles","White exterior, Gray interior","No accidents reported, 1 Owner","$25,998"
-Honda Pilot,2021,"30,283 miles","Black exterior, Black interior","1 accident reported, 1 Owner","$31,187"
-Acura MDX,2017,"100,531 miles","White exterior, Brown interior","No accidents reported, 2 Owners","$20,998"
-Toyota RAV4,2017,"96,286 miles","Black exterior, Black interior","No accidents reported, 2 Owners","$16,888"
-Volvo XC90,2021,"30,944 miles","Blue exterior, Beige interior","No accidents reported, 1 Owner","$38,749"
-Kia K5,2021,"33,705 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$22,300"
-Chevrolet Trailblazer,2021,"12,301 miles","White exterior, Black interior","No accidents reported, 1 Owner","$18,200"
-Nissan Sentra,2020,"27,966 miles","Blue exterior, Beige interior","No accidents reported, 1 Owner","$20,998"
-Kia Optima,2020,"63,028 miles","Gray exterior, Black interior","No accidents reported, 1 Owner","$12,471"
-Ford F-150,2022,"10,142 miles","Blue exterior, Black interior","No accidents reported, 1 Owner","$37,998"
-Alfa Romeo Stelvio,2022,86 miles,"White exterior, Black interior","No accidents reported, 1 Owner","$35,298"
-Toyota Tacoma,2018,"27,599 miles","Silver exterior, Gray interior","No accidents reported, 1 Owner","$30,998"
-Chevrolet Silverado 1500,2021,"59,728 miles","Gray exterior, Black interior","No accidents reported, 1 Owner","$35,995"
-BMW X3,2020,"61,144 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$22,100"
-Ford F-150,2023,"2,816 miles","Gray exterior, Black interior","No accidents reported, 2 Owners","$80,000"
-Subaru Outback,2021,"9,366 miles","Black exterior, Beige interior","No accidents reported, 1 Owner","$29,998"
-Nissan Rogue,2020,"87,596 miles","Gray exterior, Black interior","No accidents reported, 3 Owners","$12,777"
-Mercedes-Benz GLA,2020,"26,763 miles","White exterior, Beige interior","No accidents reported, 1 Owner","$22,591"
-Subaru Outback,2021,"14,618 miles","Black exterior, Gray interior","No accidents reported, 1 Owner","$28,097"
-Honda Accord,2021,"26,514 miles","Gray exterior, Black interior","1 accident reported, 1 Owner","$28,994"
-Honda Civic,2012,"127,177 miles","Gray exterior, Gray interior","No accidents reported, 2 Owners","$8,995"
-Mercedes-Benz E-Class,2006,"83,321 miles","Gray exterior, Unknown interior","No accidents reported, 0 Owners","$7,695"
-Ford Transit Passenger Wagon,2022,"34,735 miles","White exterior, Black interior","No accidents reported, 1 Owner","$52,997"
-Toyota Camry,2020,"25,298 miles","White exterior, Red interior","No accidents reported, 1 Owner","$29,999"
-Chevrolet Equinox,2016,"41,207 miles","Black exterior, Black interior","1 accident reported, 2 Owners","$18,998"
-Volvo S80,2004,"74,181 miles","Silver exterior, Beige interior","No accidents reported, 2 Owners","$6,495"
-Lexus GX,2022,"18,377 miles","Blue exterior, Gray interior","No accidents reported, 1 Owner","$47,996"
-Nissan Sentra,2020,"18,122 miles","Blue exterior, Black interior","No accidents reported, 1 Owner","$18,954"
-Chrysler 300,2013,"96,026 miles","White exterior, Black interior","No accidents reported, 1 Owner","$12,996"
-Mercedes-Benz C-Class,2020,"29,189 miles","White exterior, Beige interior","No accidents reported, 2 Owners","$28,946"
-Mercedes-Benz CLA,2023,"6,742 miles","Gray exterior, Black interior","No accidents reported, 2 Owners","$37,776"
-Jeep Wrangler,2018,"50,216 miles","White exterior, Black interior","1 accident reported, 3 Owners","$24,000"
-Ford Super Duty F-250,2019,"135,320 miles","White exterior, Gray interior","No accidents reported, 1 Owner","$21,998"
-Honda CR-V,2022,"8,124 miles","Silver exterior, Gray interior","No accidents reported, 1 Owner","$33,995"
-Chevrolet Malibu,2017,"79,894 miles","Gray exterior, Gray interior","1 accident reported, 2 Owners","$13,990"
-Mercedes-Benz C-Class,2020,"25,532 miles","White exterior, Black interior","No accidents reported, 2 Owners","$47,000"
-Mercedes-Benz E-Class,2022,"9,842 miles","White exterior, Black interior","No accidents reported, 1 Owner","$44,774"
-BMW 2 Series,2016,"97,076 miles","Gray exterior, Red interior","1 accident reported, 2 Owners","$12,987"
-Toyota Corolla,2010,"151,649 miles","Black exterior, Gray interior","1 accident reported, 3 Owners","$5,680"
-Ford F-150,2019,"156,241 miles","White exterior, Black interior","No accidents reported, 2 Owners","$21,900"
-Nissan Sentra,2020,"38,340 miles","White exterior, Black interior","No accidents reported, 2 Owners","$17,400"
-Jeep Grand Cherokee,2020,"42,885 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$27,994"
-Mercedes-Benz CLA,2020,"25,905 miles","White exterior, Black interior","No accidents reported, 2 Owners","$36,966"
-BMW 3 Series,2017,"57,798 miles","White exterior, Black interior","1 accident reported, 3 Owners","$19,998"
-Nissan Versa,2021,"61,250 miles","Gray exterior, Gray interior","No accidents reported, 1 Owner","$15,891"
-Ford Escape,2010,"148,988 miles","White exterior, Gray interior","2 accidents reported, 4 Owners","$7,495"
-Subaru Forester,2020,"22,828 miles","Black exterior, Gray interior","No accidents reported, 1 Owner","$26,500"
-Nissan Versa,2016,"69,957 miles","White exterior, Black interior","No accidents reported, 2 Owners","$9,988"
-Mazda CX-90,2024,"3,459 miles","Red exterior, White interior","No accidents reported, 1 Owner","$50,491"
-Kia Forte,2021,"26,203 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$16,995"
-Chevrolet Equinox,2018,"46,513 miles","Silver exterior, Black interior","3 accidents reported, 1 Owner","$14,987"
-Alfa Romeo Stelvio,2022,85 miles,"Black exterior, Black interior","No accidents reported, 1 Owner","$35,488"
-Ford Edge,2022,"43,221 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$26,995"
-Honda Odyssey,2019,"30,811 miles","Silver exterior, Unknown interior","No accidents reported, 1 Owner","$27,994"
-Honda Odyssey,2011,"178,527 miles","White exterior, Gray interior","No accidents reported, 3 Owners","$9,554"
-Subaru Forester,2023,"4,148 miles","Green exterior, Gray interior","No accidents reported, 1 Owner","$27,000"
-Chrysler Pacifica,2018,"73,428 miles","White exterior, Black interior","No accidents reported, 2 Owners","$19,998"
-Mercedes-Benz A-Class,2021,"7,228 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$29,046"
-Honda Pilot,2017,"97,438 miles","Red exterior, Black interior","No accidents reported, 1 Owner","$21,670"
-Scion FR-S,2015,"56,614 miles","Yellow exterior, Black interior","2 accidents reported, 2 Owners","$17,850"
-Audi A5,2023,"1,751 miles","White exterior, Black interior","No accidents reported, 1 Owner","$46,286"
-Mercedes-Benz GLB,2022,"27,692 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$34,020"
-Nissan Quest,2015,"90,699 miles","White exterior, Gray interior","1 accident reported, 2 Owners","$9,995"
-Ram 1500,2020,"58,499 miles","White exterior, Black interior","No accidents reported, 2 Owners","$30,998"
-Dodge Charger,2018,"111,955 miles","Black exterior, Black interior","1 accident reported, 3 Owners","$17,885"
-Ford Ranger,2019,"69,689 miles","Blue exterior, Black interior","No accidents reported, 2 Owners","$23,400"
-Audi S3,2016,"54,042 miles","Blue exterior, Black interior","1 accident reported, 4 Owners","$25,998"
-Toyota Highlander,2012,"93,113 miles","Silver exterior, Gray interior","No accidents reported, 1 Owner","$16,998"
-Chevrolet Tahoe,2011,"105,208 miles","Black exterior, Black interior","4 accidents reported, 3 Owners","$15,995"
-Audi Q3,2018,"21,714 miles","White exterior, Black interior","No accidents reported, 1 Owner","$21,499"
-Toyota Corolla Hatchback,2022,"12,909 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$22,879"
-Jeep Compass,2019,"84,793 miles","Black exterior, Black interior","1 accident reported, 3 Owners","$17,998"
-Mazda CX-5,2021,"12,662 miles","Red exterior, Black interior","No accidents reported, 1 Owner","$26,691"
-Hyundai Santa Fe,2021,"29,426 miles","Silver exterior, Gray interior","No accidents reported, 1 Owner","$20,989"
-Ford Transit Cargo Van,2019,"52,902 miles","White exterior, Gray interior","No accidents reported, 1 Owner","$34,997"
-BMW 3 Series,2020,"30,161 miles","White exterior, Black interior","No accidents reported, 1 Owner","$24,202"
-Jeep Wrangler,2022,"23,799 miles","White exterior, Brown interior","No accidents reported, 1 Owner","$42,998"
-Chevrolet Equinox,2015,"94,668 miles","Black exterior, Black interior","No accidents reported, 2 Owners","$14,998"
-Toyota Highlander,2022,"49,766 miles","Silver exterior, Black interior","No accidents reported, 1 Owner","$39,595"
-Land Rover Range Rover Velar,2018,"67,236 miles","Gray exterior, Black interior","No accidents reported, 2 Owners","$26,995"
-Honda Accord,2018,"34,889 miles","Blue exterior, Black interior","No accidents reported, 2 Owners","$24,400"
-Jeep Wrangler,2018,"104,556 miles","Blue exterior, Black interior","No accidents reported, 1 Owner","$28,998"
-Honda Civic,2015,"53,941 miles","Gray exterior, Black interior","2 accidents reported, 2 Owners","$14,708"
-Ford Explorer,2020,"34,328 miles","Blue exterior, Black interior","No accidents reported, 1 Owner","$30,998"
-Lexus RX,2021,"50,587 miles","Tan exterior, Black interior","1 accident reported, 1 Owner","$32,998"
-Acura TLX,2021,"41,046 miles","White exterior, Black interior","No accidents reported, 1 Owner","$27,236"
-Honda Accord,2014,"54,424 miles","Tan exterior, Beige interior","No accidents reported, 3 Owners","$17,498"
-Honda CR-V,2021,"50,220 miles","Gray exterior, Unknown interior","No accidents reported, 1 Owner","$22,992"
-Nissan Versa,2017,"64,545 miles","White exterior, Black interior","No accidents reported, 3 Owners","$8,987"
-Kia Forte,2021,"15,084 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$17,995"
-Buick Encore GX,2022,"7,437 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$19,988"
-Nissan Versa,2021,"62,103 miles","Blue exterior, Gray interior","No accidents reported, 1 Owner","$15,641"
-Honda CR-V,2019,"17,123 miles","Gray exterior, Black interior","1 accident reported, 1 Owner","$24,498"
-Alfa Romeo Giulia,2022,47 miles,"White exterior, Black interior","No accidents reported, 1 Owner","$28,670"
-Jeep Compass,2016,"91,570 miles","Silver exterior, Unknown interior","No accidents reported, 3 Owners","$8,999"
-Chrysler Pacifica,2022,"39,767 miles","Gray exterior, Black interior","No accidents reported, 1 Owner","$27,998"
-Land Rover Defender,2021,"29,490 miles","Silver exterior, Brown interior","No accidents reported, 1 Owner","$71,222"
-BMW X3,2022,"7,590 miles","Gray exterior, Brown interior","No accidents reported, 1 Owner","$36,999"
-Volkswagen Tiguan,2020,"24,391 miles","White exterior, Black interior","1 accident reported, 1 Owner","$29,998"
-Toyota RAV4,2021,"19,768 miles","Black exterior, Gray interior","No accidents reported, 1 Owner","$35,999"
-Toyota Camry,2020,"68,181 miles","Black exterior, Gray interior","1 accident reported, 1 Owner","$18,988"
-Lexus ES,2021,"12,283 miles","Green exterior, Black interior","No accidents reported, 1 Owner","$34,000"
-Ford F-150,2020,"47,109 miles","Black exterior, Black interior","1 accident reported, 1 Owner","$31,998"
-Ford Ranger,2019,"69,689 miles","Blue exterior, Black interior","No accidents reported, 2 Owners","$23,400"
-Hyundai Kona,2022,"30,250 miles","Silver exterior, Black interior","No accidents reported, 1 Owner","$18,998"
-Chevrolet Trax,2020,"25,693 miles","Red exterior, Black interior","No accidents reported, 1 Owner","$15,995"
-Audi A5,2018,"50,180 miles","White exterior, Brown interior","1 accident reported, 2 Owners","$28,333"
-Toyota Camry,2009,"155,980 miles","Gold exterior, Beige interior","No accidents reported, 3 Owners","$5,500"
-GMC Yukon,2015,"90,045 miles","Black exterior, Black interior","No accidents reported, 2 Owners","$23,999"
-Chevrolet Camaro,2020,"62,514 miles","Blue exterior, Black interior","2 accidents reported, 2 Owners","$21,987"
-Jeep Grand Cherokee,2018,"67,086 miles","White exterior, Black interior","No accidents reported, 2 Owners","$24,998"
-Honda Civic,2022,"32,553 miles","Red exterior, Black interior","No accidents reported, 1 Owner","$23,495"
-Honda Pilot,2021,"42,840 miles","White exterior, Black interior","1 accident reported, 1 Owner","$28,998"
-Toyota Highlander,2021,"24,754 miles","Gray exterior, Black interior","No accidents reported, 1 Owner","$32,797"
-Nissan Sentra,2015,"56,977 miles","Black exterior, Black interior","No accidents reported, 3 Owners","$14,998"
-Kia Forte,2022,"41,406 miles","Gray exterior, Black interior","No accidents reported, 1 Owner","$15,988"
-Porsche 911,2008,"43,698 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$58,727"
-Cadillac Escalade,2013,"120,684 miles","White exterior, Black interior","No accidents reported, 2 Owners","$18,495"
-Audi A4,2018,"60,428 miles","Silver exterior, Black interior","No accidents reported, 2 Owners","$19,399"
-Audi A6,2023,"5,801 miles","Gray exterior, Black interior","No accidents reported, 1 Owner","$47,998"
-Nissan Sentra,2019,"50,045 miles","Gray exterior, Black interior","No accidents reported, 2 Owners","$16,998"
-Ford Bronco,2022,"7,511 miles","Gray exterior, Black interior","No accidents reported, 1 Owner","$56,215"
-Toyota Sienna,2014,"145,219 miles","Gray exterior, Gray interior","2 accidents reported, 3 Owners","$9,995"
-Alfa Romeo Giulia,2022,46 miles,"White exterior, Black interior","No accidents reported, 1 Owner","$30,542"
-Ford Mustang,2017,"90,843 miles","Black exterior, Black interior","No accidents reported, 3 Owners","$18,998"
-BMW 3 Series,2011,"127,089 miles","Silver exterior, Black interior","1 accident reported, 3 Owners","$7,995"
-Nissan Altima,2015,"72,041 miles","Red exterior, Black interior","1 accident reported, 2 Owners","$9,695"
-Honda Civic,2020,"16,589 miles","Silver exterior, Black interior","No accidents reported, 1 Owner","$20,565"
-Mercedes-Benz E-Class,2011,"74,911 miles","Gray exterior, Black interior","No accidents reported, 3 Owners","$15,850"
-Jeep Cherokee,2021,"10,350 miles","Gray exterior, Black interior","No accidents reported, 1 Owner","$24,222"
-Toyota RAV4,2021,"36,489 miles","Blue exterior, Black interior","1 accident reported, 1 Owner","$28,994"
-Mercedes-Benz GLS,2020,"69,631 miles","White exterior, Black interior","No accidents reported, 1 Owner","$44,992"
-Ford F-150,2021,"37,193 miles","Black exterior, Gray interior","1 accident reported, 2 Owners","$34,998"
-Dodge Charger,2018,"105,394 miles","White exterior, Black interior","No accidents reported, 2 Owners","$18,998"
-Nissan Altima,2016,"85,000 miles","Blue exterior, Black interior","No accidents reported, 3 Owners","$10,995"
-Chevrolet Equinox,2020,"21,350 miles","Gray exterior, Gray interior","No accidents reported, 1 Owner","$16,995"
-Subaru Outback,2022,"25,164 miles","Gray exterior, Gray interior","No accidents reported, 1 Owner","$29,474"
-Toyota Corolla,2021,"41,380 miles","Blue exterior, Black interior","No accidents reported, 1 Owner","$19,998"
-Toyota Corolla,2009,"150,862 miles","Gray exterior, Gray interior","No accidents reported, 1 Owner","$5,980"
-Mercedes-Benz GLC,2022,"5,029 miles","Black exterior, Beige interior","No accidents reported, 1 Owner","$38,235"
-Honda Odyssey,2018,"58,553 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$29,468"
-BMW X3,2021,"36,510 miles","White exterior, Black interior","No accidents reported, 1 Owner","$29,995"
-Mercedes-Benz CL,2011,"108,492 miles","Black exterior, Black interior","2 accidents reported, 4 Owners","$19,987"
-Mercedes-Benz C-Class,2019,"49,842 miles","Black exterior, Black interior","No accidents reported, 2 Owners","$25,163"
-Toyota Highlander,2021,"16,462 miles","White exterior, Beige interior","No accidents reported, 1 Owner","$35,037"
-Chevrolet Malibu,2020,"80,174 miles","Silver exterior, Black interior","1 accident reported, 2 Owners","$14,995"
-Mercedes-Benz GLA,2019,"34,972 miles","Black exterior, Black interior","No accidents reported, 2 Owners","$22,142"
-Lexus RX,2018,"44,251 miles","Gray exterior, Black interior","No accidents reported, 2 Owners","$29,488"
-Chevrolet Trailblazer,2023,"8,957 miles","Gray exterior, Black interior","No accidents reported, 0 Owners","$25,777"
-Honda Civic,2020,"18,548 miles","White exterior, Unknown interior","No accidents reported, 1 Owner","$19,995"
-Ford Edge,2014,"90,710 miles","Red exterior, Unknown interior","No accidents reported, 2 Owners","$11,295"
-Land Rover Range Rover Evoque,2019,"45,704 miles","White exterior, Black interior","1 accident reported, 3 Owners","$24,499"
-Acura MDX,2020,"21,556 miles","White exterior, White interior","No accidents reported, 1 Owner","$31,795"
-Nissan Pathfinder,2019,"61,819 miles","Silver exterior, Black interior","No accidents reported, 3 Owners","$17,988"
-Lexus NX,2023,"2,880 miles","White exterior, Black interior","No accidents reported, 1 Owner","$46,998"
-Mercedes-Benz E-Class,2022,"27,642 miles","Gray exterior, Black interior","No accidents reported, 1 Owner","$41,998"
-BMW Z3,2000,"24,536 miles","Gray exterior, Black interior","No accidents reported, 2 Owners","$13,750"
-Kia Optima,2015,"86,935 miles","White exterior, Beige interior","No accidents reported, 1 Owner","$15,998"
-Jeep Gladiator,2020,"28,908 miles","Gray exterior, Black interior","No accidents reported, 1 Owner","$30,991"
-INFINITI Q50,2019,"51,091 miles","White exterior, Gray interior","No accidents reported, 1 Owner","$21,333"
-Ford F-150,2020,"36,590 miles","Gray exterior, Gray interior","No accidents reported, 1 Owner","$33,998"
-Lexus IS,2016,"31,351 miles","Black exterior, Black interior","1 accident reported, 1 Owner","$21,720"
-Land Rover Discovery,2017,"55,590 miles","Gray exterior, Black interior","1 accident reported, 2 Owners","$21,995"
-Acura MDX,2020,"39,968 miles","White exterior, Beige interior","No accidents reported, 1 Owner","$26,789"
-Mercedes-Benz C-Class,2020,"29,189 miles","White exterior, Beige interior","No accidents reported, 2 Owners","$28,946"
-Ford Explorer,2021,"42,808 miles","White exterior, Black interior","No accidents reported, 1 Owner","$36,500"
-Subaru Forester,2021,"12,548 miles","White exterior, Brown interior","No accidents reported, 1 Owner","$28,699"
-Honda Civic,2020,"36,732 miles","Gray exterior, Unknown interior","No accidents reported, 2 Owners","$21,721"
-Mercedes-Benz GLC,2019,"102,692 miles","White exterior, Black interior","1 accident reported, 2 Owners","$16,991"
-Nissan Sentra,2021,"60,013 miles","White exterior, Black interior","No accidents reported, 1 Owner","$18,891"
-Chevrolet Malibu,2022,"41,386 miles","Silver exterior, Black interior","1 accident reported, 1 Owner","$19,998"
-Jeep Wrangler,2020,"41,074 miles","Silver exterior, Black interior","No accidents reported, 1 Owner","$29,499"
-Chevrolet Cruze,2018,"107,459 miles","Blue exterior, Black interior","2 accidents reported, 1 Owner","$10,998"
-Ford Escape,2014,"84,574 miles","Black exterior, Black interior","1 accident reported, 2 Owners","$13,795"
-Ford Edge,2023,"4,706 miles","White exterior, Black interior","No accidents reported, 1 Owner","$34,770"
-Volkswagen Passat,2020,"22,924 miles","Black exterior, Black interior","1 accident reported, 1 Owner","$19,998"
-Kia Forte,2022,"11,164 miles","Gray exterior, Black interior","1 accident reported, 2 Owners","$17,345"
-Toyota Highlander,2022,214 miles,"Blue exterior, Black interior","No accidents reported, 1 Owner","$39,333"
-Mercedes-Benz GLS,2017,"71,041 miles","Silver exterior, Gray interior","No accidents reported, 2 Owners","$33,986"
-Audi Q5,2010,"158,250 miles","Gray exterior, Black interior","1 accident reported, 1 Owner","$4,995"
-Mercedes-Benz S-Class,2014,"124,184 miles","White exterior, Black interior","1 accident reported, 3 Owners","$21,777"
-Mercedes-Benz GLB,2021,"18,498 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$32,415"
-Chevrolet Corvette,2015,"5,369 miles","Silver exterior, Red interior","No accidents reported, 2 Owners","$69,695"
-Subaru Forester,2023,"6,290 miles","Silver exterior, Black interior","No accidents reported, 1 Owner","$33,500"
-Toyota Prius v,2013,"98,042 miles","Silver exterior, Gray interior","1 accident reported, 1 Owner","$11,600"
-Dodge Grand Caravan,2016,"146,703 miles","Gray exterior, Black interior","No accidents reported, 2 Owners","$6,988"
-Subaru Forester,2023,"6,290 miles","Silver exterior, Black interior","No accidents reported, 1 Owner","$33,500"
-Jaguar F-PACE,2020,"42,668 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$26,700"
-Mercedes-Benz E-Class,2020,"28,678 miles","White exterior, Black interior","No accidents reported, 1 Owner","$36,595"
-Toyota Camry,2022,"29,934 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$29,998"
-Lexus RX,2021,"24,526 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$36,794"
-Mercedes-Benz GLC,2019,"67,648 miles","Black exterior, Black interior","No accidents reported, 2 Owners","$22,999"
-Cadillac Escalade,2023,"13,889 miles","Gray exterior, Black interior","No accidents reported, 1 Owner","$89,991"
-Toyota Tacoma,2017,"31,648 miles","Blue exterior, Gray interior","No accidents reported, 2 Owners","$29,998"
-Mercedes-Benz E-Class,2019,"41,075 miles","Black exterior, Black interior","1 accident reported, 1 Owner","$26,991"
-Volkswagen Tiguan,2020,"54,654 miles","Blue exterior, Black interior","No accidents reported, 1 Owner","$22,998"
-Ford Mustang,2015,"107,676 miles","Orange exterior, Black interior","No accidents reported, 2 Owners","$14,300"
-Toyota Corolla,2011,"93,687 miles","Black exterior, Gray interior","1 accident reported, 1 Owner","$8,500"
-Mercedes-Benz S-Class,2007,"148,602 miles","Black exterior, Black interior","No accidents reported, 3 Owners","$9,542"
-Karma Revero GT,2020,"7,685 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$63,728"
-Nissan Kicks,2018,"20,185 miles","Silver exterior, Black interior","No accidents reported, 1 Owner","$19,998"
-Audi A3,2020,"35,165 miles","White exterior, Black interior","1 accident reported, 1 Owner","$24,998"
-Kia Optima,2016,"75,067 miles","Gray exterior, Gray interior","2 accidents reported, 2 Owners","$15,998"
-Honda Civic,2016,"88,063 miles","Silver exterior, Black interior","1 accident reported, 3 Owners","$17,998"
-Honda CR-V,2020,"25,927 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$24,998"
-Ford F-150,2019,"104,905 miles","White exterior, Gray interior","No accidents reported, 1 Owner","$15,999"
-Jeep Wrangler,2018,"52,098 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$24,910"
-Toyota Camry,2015,"101,711 miles","Silver exterior, Black interior","1 accident reported, 2 Owners","$15,998"
-Subaru Ascent,2022,"25,721 miles","Gray exterior, Gray interior","No accidents reported, 1 Owner","$34,984"
-Dodge Challenger,2015,"85,799 miles","Black exterior, Black interior","4 accidents reported, 3 Owners","$19,200"
-Alfa Romeo Stelvio,2022,25 miles,"Red exterior, Black interior","No accidents reported, 1 Owner","$33,684"
-Ford F-150,2021,"37,193 miles","Black exterior, Gray interior","1 accident reported, 2 Owners","$34,998"
-Toyota Corolla Cross,2022,"55,639 miles","Black exterior, Black interior","1 accident reported, 1 Owner","$20,938"
-Audi A5,2012,"106,320 miles","Black exterior, Unknown interior","No accidents reported, 0 Owners","$9,795"
-Ford Fusion,2019,"20,687 miles","White exterior, Black interior","No accidents reported, 1 Owner","$22,998"
-Mercedes-Benz C-Class,2021,"18,769 miles","Silver exterior, Unknown interior","No accidents reported, 1 Owner","$29,990"
-Nissan Sentra,2022,"22,045 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$17,799"
-Mercedes-Benz GLC,2021,"60,901 miles","White exterior, Gray interior","No accidents reported, 1 Owner","$25,600"
-Subaru Outback,2023,"5,609 miles","White exterior, Gray interior","No accidents reported, 1 Owner","$35,479"
-Mercedes-Benz C-Class,2021,"28,708 miles","Gray exterior, Black interior","No accidents reported, 2 Owners","$31,154"
-Ford F-150,2021,"59,756 miles","White exterior, Gray interior","No accidents reported, 2 Owners","$36,998"
-Land Rover Discovery Sport,2023,"10,607 miles","White exterior, Black interior","No accidents reported, 1 Owner","$37,777"
-Nissan Maxima,2018,"43,047 miles","Red exterior, Beige interior","No accidents reported, 2 Owners","$21,998"
-BMW 3 Series,2021,"3,274 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$45,999"
-Land Rover Range Rover Sport,2009,"112,045 miles","Black exterior, Black interior","5 accidents reported, 5 Owners","$9,995"
-Volkswagen Tiguan,2020,"33,271 miles","Black exterior, Black interior","1 accident reported, 1 Owner","$23,998"
-Chevrolet Equinox,2020,"29,350 miles","Gray exterior, Black interior","1 accident reported, 1 Owner","$21,998"
-Cadillac CT4,2020,"36,682 miles","White exterior, Black interior","No accidents reported, 1 Owner","$31,995"
-Honda Accord,2019,"40,673 miles","Gray exterior, Gray interior","1 accident reported, 1 Owner","$17,991"
-Honda Accord,2021,"40,604 miles","White exterior, Gray interior","No accidents reported, 2 Owners","$29,998"
-Mercedes-Benz CLS,2013,"93,898 miles","Silver exterior, Beige interior","1 accident reported, 3 Owners","$15,995"
-Mercedes-Benz C-Class,2018,"36,871 miles","Blue exterior, Gray interior","2 accidents reported, 3 Owners","$22,998"
-Mercedes-Benz S-Class,2016,"21,855 miles","Black exterior, White interior","No accidents reported, 1 Owner","$73,495"
-Ford F-150,2020,"111,937 miles","White exterior, Blue interior","No accidents reported, 1 Owner","$16,975"
-Subaru WRX,2019,"38,318 miles","Gray exterior, Black interior","No accidents reported, 4 Owners","$26,298"
-Chevrolet Cruze,2018,"95,458 miles","Silver exterior, Black interior","No accidents reported, 2 Owners","$10,995"
-BMW X7,2021,"23,145 miles","White exterior, Black interior","No accidents reported, 1 Owner","$70,498"
-Hyundai Sonata,2021,"29,325 miles","Gray exterior, Gray interior","No accidents reported, 1 Owner","$24,495"
-Jeep Grand Cherokee,2015,"94,863 miles","White exterior, Black interior","No accidents reported, 2 Owners","$20,998"
-Toyota Corolla,2021,"80,771 miles","Blue exterior, Black interior","1 accident reported, 1 Owner","$17,495"
-Volkswagen Tiguan,2021,"28,914 miles","White exterior, Black interior","No accidents reported, 1 Owner","$18,993"
-Audi A5,2015,"105,026 miles","Black exterior, Black interior","No accidents reported, 2 Owners","$14,995"
-Ford Econoline Cargo Van,2013,"307,292 miles","White exterior, Gray interior","2 accidents reported, 1 Owner","$8,995"
-Nissan Rogue,2016,"117,896 miles","White exterior, Black interior","No accidents reported, 1 Owner","$13,599"
-Chevrolet Malibu,2021,"62,149 miles","Red exterior, Black interior","No accidents reported, 1 Owner","$18,554"
-Mercedes-Benz GLC,2021,"9,573 miles","Gray exterior, Gray interior","No accidents reported, 1 Owner","$34,421"
-Mercedes-Benz C-Class,2018,"59,515 miles","Black exterior, Black interior","No accidents reported, 2 Owners","$22,998"
-Toyota Tacoma,2021,"8,006 miles","Gray exterior, Gray interior","No accidents reported, 1 Owner","$38,998"
-Toyota Corolla,2022,"27,732 miles","Silver exterior, Black interior","No accidents reported, 1 Owner","$19,515"
-Honda Odyssey,2015,"125,578 miles","Gray exterior, Gray interior","No accidents reported, 2 Owners","$16,998"
-Ford F-150,2019,"102,015 miles","White exterior, Black interior","No accidents reported, 1 Owner","$22,489"
-Chevrolet Blazer,2020,"57,489 miles","Gray exterior, Black interior","No accidents reported, 2 Owners","$23,500"
-Toyota Tacoma,2022,"8,097 miles","Silver exterior, Black interior","No accidents reported, 1 Owner","$39,991"
-Chevrolet Equinox,2020,"23,791 miles","Silver exterior, Gray interior","No accidents reported, 1 Owner","$18,995"
-Nissan Altima,2017,"70,821 miles","White exterior, Black interior","2 accidents reported, 3 Owners","$13,995"
-Ford Super Duty F-250,2020,"93,819 miles","White exterior, Gray interior","No accidents reported, 1 Owner","$24,985"
-Honda Civic,2020,"16,112 miles","White exterior, Beige interior","No accidents reported, 1 Owner","$20,998"
-Audi A6,2008,"95,450 miles","Black exterior, Unknown interior","No accidents reported, 0 Owners","$9,795"
-Kia Soul,2015,"74,267 miles","Gray exterior, Black interior","2 accidents reported, 3 Owners","$8,476"
-Toyota Tacoma,2019,"59,252 miles","Gray exterior, Unknown interior","No accidents reported, 1 Owner","$29,995"
-Kia Optima,2013,"112,562 miles","Black exterior, Beige interior","No accidents reported, 3 Owners","$8,495"
-Toyota Prius,2015,"78,007 miles","Gray exterior, Gray interior","1 accident reported, 2 Owners","$16,995"
-Toyota Prius,2022,"45,722 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$22,690"
-Subaru Outback,2020,"43,468 miles","White exterior, Gray interior","No accidents reported, 1 Owner","$22,000"
-Ford Ranger,2019,"45,072 miles","Gray exterior, Black interior","No accidents reported, 1 Owner","$26,495"
-Toyota Corolla,2020,"39,731 miles","Blue exterior, Black interior","No accidents reported, 1 Owner","$19,994"
-Land Rover Range Rover Sport,2016,"74,525 miles","Black exterior, Beige interior","1 accident reported, 2 Owners","$20,994"
-Toyota Camry,2018,"13,411 miles","Black exterior, Black interior","1 accident reported, 1 Owner","$24,998"
-Chevrolet Silverado 1500,2021,"41,606 miles","White exterior, Black interior","No accidents reported, 1 Owner","$36,485"
-Mercedes-Benz GLC,2019,"37,682 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$26,998"
-Toyota Corolla,2020,"46,357 miles","Black exterior, Black interior","1 accident reported, 2 Owners","$16,999"
-Audi Q7,2019,"25,687 miles","Black exterior, Black interior","2 accidents reported, 1 Owner","$33,998"
-Chevrolet Malibu,2017,"25,561 miles","Red exterior, Black interior","No accidents reported, 1 Owner","$18,998"
-Audi Q7,2023,"2,738 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$53,155"
-BMW X5,2021,"22,220 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$42,997"
-BMW 3 Series,2020,"42,725 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$24,198"
-Honda Civic,2023,"9,562 miles","Red exterior, Black interior","No accidents reported, 1 Owner","$25,639"
-Ram 1500,2020,"20,820 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$41,998"
-Hyundai Accent,2016,"94,267 miles","White exterior, Gray interior","No accidents reported, 2 Owners","$6,999"
-Toyota Tundra,2021,"20,874 miles","Green exterior, Black interior","No accidents reported, 1 Owner","$41,394"
-Mazda CX-5,2016,"65,687 miles","White exterior, Black interior","No accidents reported, 2 Owners","$17,998"
-BMW X3,2022,"40,474 miles","White exterior, Unknown interior","No accidents reported, 1 Owner","$30,998"
-Mercedes-Benz GLC,2021,"22,734 miles","Black exterior, Black interior","1 accident reported, 1 Owner","$31,990"
-Buick Cascada,2016,"54,227 miles","White exterior, Black interior","No accidents reported, 2 Owners","$15,998"
-Jeep Grand Cherokee,2018,"63,600 miles","Black exterior, Black interior","No accidents reported, 2 Owners","$25,998"
-Chevrolet Traverse,2020,"57,826 miles","White exterior, Black interior","1 accident reported, 1 Owner","$28,600"
-Mercedes-Benz GLC,2020,"29,902 miles","White exterior, Black interior","No accidents reported, 1 Owner","$27,995"
-Toyota Prius,2013,"131,525 miles","White exterior, Gray interior","1 accident reported, 2 Owners","$10,895"
-Chevrolet Silverado 1500,2016,"93,925 miles","White exterior, Black interior","No accidents reported, 2 Owners","$26,988"
-Mercedes-Benz C-Class,2017,"54,673 miles","Blue exterior, Unknown interior","1 accident reported, 2 Owners","$22,998"
-Chevrolet Silverado 1500,2018,"61,608 miles","Gray exterior, Black interior","No accidents reported, 1 Owner","$30,549"
-Mercedes-Benz GLA,2021,"31,230 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$26,933"
-Hyundai Elantra,2016,"65,914 miles","Black exterior, Gray interior","4 accidents reported, 2 Owners","$8,650"
-Maserati Ghibli,2019,"17,904 miles","White exterior, Black interior","No accidents reported, 1 Owner","$36,987"
-Audi A3,2023,"1,193 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$32,995"
-Nissan Rogue,2023,"1,942 miles","Gray exterior, Black interior","No accidents reported, 1 Owner","$31,891"
-Mercedes-Benz S-Class,2014,"88,900 miles","White exterior, Beige interior","No accidents reported, 1 Owner","$24,502"
-BMW 5 Series,2023,"6,321 miles","White exterior, Black interior","No accidents reported, 1 Owner","$51,187"
-Ford Mustang,2018,"9,452 miles","White exterior, Black interior","No accidents reported, 3 Owners","$58,495"
-Ford Super Duty F-250,2020,"85,864 miles","White exterior, Black interior","No accidents reported, 1 Owner","$28,950"
-Toyota Tacoma,2023,"6,828 miles","Silver exterior, Black interior","No accidents reported, 1 Owner","$39,500"
-INFINITI Q50,2014,"31,757 miles","Gray exterior, Gray interior","No accidents reported, 2 Owners","$22,998"
-Audi A5,2020,"39,232 miles","White exterior, Black interior","2 accidents reported, 1 Owner","$33,998"
-Mazda CX-30,2022,"9,629 miles","Gray exterior, Black interior","No accidents reported, 2 Owners","$27,998"
-Acura RDX,2023,"3,057 miles","Blue exterior, Black interior","No accidents reported, 1 Owner","$38,777"
-Chevrolet Silverado 1500,2019,"82,431 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$26,885"
-Nissan Versa,2021,"62,103 miles","Blue exterior, Gray interior","No accidents reported, 1 Owner","$15,641"
-Honda Civic,2021,"26,510 miles","White exterior, Black interior","No accidents reported, 1 Owner","$24,135"
-Jeep Grand Cherokee,2018,"48,895 miles","Gray exterior, Black interior","2 accidents reported, 1 Owner","$22,995"
-Volvo XC90,2018,"51,994 miles","Silver exterior, Black interior","No accidents reported, 1 Owner","$24,999"
-Jeep Wrangler,2022,"16,700 miles","Black exterior, Black interior","No accidents reported, 2 Owners","$38,444"
-Toyota Corolla,2021,"18,446 miles","White exterior, Black interior","2 accidents reported, 1 Owner","$19,781"
-Mercedes-Benz C-Class,2021,"18,741 miles","Blue exterior, Beige interior","No accidents reported, 1 Owner","$30,651"
-Volkswagen Routan,2010,"135,880 miles","Black exterior, Unknown interior","2 accidents reported, 2 Owners","$5,995"
-Kia Forte,2021,"22,073 miles","Gray exterior, Black interior","1 accident reported, 1 Owner","$17,856"
-Hyundai Santa Fe,2023,"32,148 miles","White exterior, Black interior","No accidents reported, 1 Owner","$21,800"
-Toyota Corolla,2021,"7,500 miles","Red exterior, Black interior","No accidents reported, 1 Owner","$21,222"
-BMW 4 Series,2021,"48,855 miles","White exterior, Red interior","No accidents reported, 1 Owner","$40,497"
-Toyota RAV4,2018,"50,762 miles","Gray exterior, Black interior","No accidents reported, 2 Owners","$22,998"
-Chrysler Pacifica,2022,"33,066 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$29,998"
-Ford Escape,2020,"35,626 miles","White exterior, Unknown interior","1 accident reported, 1 Owner","$22,998"
-Chevrolet Malibu,2022,"32,668 miles","Gray exterior, Gray interior","No accidents reported, 1 Owner","$19,998"
-GMC Terrain,2020,"63,102 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$19,300"
-Mitsubishi Outlander,2019,"56,038 miles","Red exterior, Black interior","No accidents reported, 1 Owner","$19,896"
-BMW X5,2022,"14,078 miles","Gray exterior, Brown interior","No accidents reported, 1 Owner","$44,997"
-Mazda CX-5,2023,"8,470 miles","Blue exterior, Beige interior","No accidents reported, 1 Owner","$32,998"
-Mercedes-Benz C-Class,2018,"59,696 miles","White exterior, Black interior","2 accidents reported, 2 Owners","$21,998"
-Toyota Camry,2022,"31,634 miles","Silver exterior, Black interior","No accidents reported, 1 Owner","$22,100"
-Kia K5,2022,"49,207 miles","Red exterior, Black interior","No accidents reported, 1 Owner","$18,998"
-Alfa Romeo Stelvio,2022,86 miles,"White exterior, Black interior","No accidents reported, 1 Owner","$35,298"
-Honda Civic,2012,"126,639 miles","Black exterior, Gray interior","No accidents reported, 2 Owners","$8,995"
-Volkswagen Tiguan,2020,"41,266 miles","Gray exterior, Black interior","No accidents reported, 1 Owner","$18,991"
-BMW 3 Series,2020,"25,563 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$25,965"
-BMW X6,2021,"42,098 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$63,998"
-Volkswagen Atlas,2021,"57,902 miles","Black exterior, Black interior","1 accident reported, 1 Owner","$29,998"
-Ford F-150,2014,"99,018 miles","White exterior, Gray interior","No accidents reported, 1 Owner","$14,495"
-Mercedes-Benz GLC,2019,"13,520 miles","Silver exterior, Black interior","No accidents reported, 1 Owner","$28,495"
-Chevrolet Trax,2020,"34,932 miles","Black exterior, Black interior","1 accident reported, 1 Owner","$15,598"
-Mercedes-Benz GLC,2019,"23,268 miles","Blue exterior, Unknown interior","1 accident reported, 3 Owners","$32,998"
-Toyota RAV4,2018,"68,049 miles","Black exterior, Black interior","No accidents reported, 2 Owners","$22,998"
-Chrysler Pacifica,2018,"73,428 miles","White exterior, Black interior","No accidents reported, 2 Owners","$19,998"
-Mercedes-Benz C-Class,2015,"132,700 miles","Gray exterior, Unknown interior","No accidents reported, 4 Owners","$12,295"
-Chevrolet Silverado 1500,2020,"34,296 miles","White exterior, Black interior","No accidents reported, 1 Owner","$37,998"
-Toyota Tacoma,2023,"8,074 miles","White exterior, Gray interior","No accidents reported, 1 Owner","$42,991"
-Kia K5,2022,"40,143 miles","White exterior, Black interior","No accidents reported, 1 Owner","$17,500"
-Ford Focus,2016,"83,009 miles","Gray exterior, Black interior","1 accident reported, 2 Owners","$17,998"
-Toyota RAV4 Prime,2021,"37,418 miles","Silver exterior, Black interior","No accidents reported, 1 Owner","$37,991"
-Lexus NX,2021,"26,525 miles","White exterior, Black interior","No accidents reported, 1 Owner","$30,998"
-Chevrolet Malibu,2022,"43,257 miles","Silver exterior, Black interior","No accidents reported, 1 Owner","$17,400"
-Kia Seltos,2021,"43,244 miles","White exterior, Black interior","No accidents reported, 1 Owner","$20,100"
-BMW X3,2021,"9,620 miles","White exterior, Black interior","No accidents reported, 1 Owner","$43,988"
-BMW X5,2020,"68,463 miles","Blue exterior, Black interior","No accidents reported, 2 Owners","$43,598"
-Chevrolet Malibu,2021,"62,054 miles","White exterior, Black interior","1 accident reported, 1 Owner","$17,998"
-BMW 3 Series,2011,"110,377 miles","White exterior, Beige interior","1 accident reported, 2 Owners","$6,998"
-Mercedes-Benz GLA,2020,"72,921 miles","Black exterior, Black interior","1 accident reported, 1 Owner","$19,495"
-GMC Yukon,2017,"80,586 miles","Black exterior, Black interior","1 accident reported, 1 Owner","$30,987"
-Ford Fiesta,2014,"97,490 miles","Gray exterior, Black interior","1 accident reported, 3 Owners","$10,998"
-Kia Forte,2020,"45,583 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$17,988"
-Honda Odyssey,2019,"60,490 miles","Brown exterior, Gray interior","1 accident reported, 4 Owners","$28,998"
-Volkswagen CC,2015,"65,361 miles","Silver exterior, Black interior","No accidents reported, 3 Owners","$11,500"
-Audi A3,2015,"70,811 miles","Black exterior, Black interior","1 accident reported, 2 Owners","$14,895"
-Volkswagen Beetle,2013,"96,672 miles","Black exterior, Black interior","2 accidents reported, 3 Owners","$10,927"
-Toyota C-HR,2021,"26,270 miles","Gray exterior, Black interior","No accidents reported, 1 Owner","$23,333"
-Toyota RAV4,2022,"8,972 miles","Gray exterior, Black interior","No accidents reported, 1 Owner","$32,000"
-Chevrolet Malibu,2022,"52,126 miles","Black exterior, Black interior","1 accident reported, 1 Owner","$20,998"
-Ford Ranger,2019,"77,267 miles","Silver exterior, Black interior","No accidents reported, 1 Owner","$19,876"
-Honda Civic,2015,"97,441 miles","Black exterior, Black interior","No accidents reported, 2 Owners","$15,998"
-Mazda Mazda3,2016,"48,616 miles","Red exterior, Black interior","No accidents reported, 1 Owner","$18,998"
-Dodge Challenger,2012,"112,067 miles","Black exterior, Gray interior","No accidents reported, 2 Owners","$16,750"
-Nissan Pathfinder,2017,"103,260 miles","Black exterior, Black interior","No accidents reported, 3 Owners","$10,995"
-Mercedes-Benz GLC,2022,"12,483 miles","White exterior, Black interior","No accidents reported, 1 Owner","$35,136"
-Subaru Outback,2020,"28,693 miles","Black exterior, Gray interior","No accidents reported, 1 Owner","$23,889"
-Mercedes-Benz C-Class,2019,"32,753 miles","White exterior, Black interior","No accidents reported, 2 Owners","$32,446"
-Mercedes-Benz SL,2000,"86,513 miles","White exterior, Beige interior","1 accident reported, 3 Owners","$8,995"
-Toyota RAV4,2022,"31,666 miles","Gray exterior, Unknown interior","No accidents reported, 1 Owner","$24,988"
-Subaru Crosstrek,2018,"71,542 miles","Blue exterior, Gray interior","No accidents reported, 3 Owners","$21,998"
-Toyota Corolla,2021,"39,688 miles","Blue exterior, Gray interior","No accidents reported, 1 Owner","$19,078"
-Alfa Romeo Stelvio,2022,65 miles,"Black exterior, Black interior","No accidents reported, 1 Owner","$35,663"
-Chevrolet Corvette,2021,"6,537 miles","Yellow exterior, Black interior","No accidents reported, 1 Owner","$82,150"
-Audi Q5,2022,"11,651 miles","Gray exterior, Gray interior","No accidents reported, 2 Owners","$33,497"
-Mercedes-Benz GLE,2021,"42,003 miles","White exterior, Beige interior","No accidents reported, 1 Owner","$39,991"
-Mercedes-Benz C-Class,2018,"55,367 miles","White exterior, Black interior","No accidents reported, 2 Owners","$24,166"
-Toyota Tacoma,2019,"48,925 miles","Gray exterior, Gray interior","No accidents reported, 2 Owners","$27,555"
-Alfa Romeo Stelvio,2022,25 miles,"Red exterior, Black interior","No accidents reported, 1 Owner","$33,684"
-BMW 5 Series,2023,"4,341 miles","White exterior, Black interior","No accidents reported, 1 Owner","$51,825"
-Land Rover Range Rover Velar,2019,"26,989 miles","White exterior, Unknown interior","No accidents reported, 1 Owner","$44,395"
-Land Rover Range Rover Sport,2015,"25,995 miles","Unknown exterior, Unknown interior","No accidents reported, 5 Owners","$25,995"
-GMC Sierra 1500,2021,"56,315 miles","Black exterior, Black interior","1 accident reported, 2 Owners","$46,222"
-Audi A3,2023,"3,573 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$32,995"
-Jaguar F-PACE,2019,"47,051 miles","Black exterior, Unknown interior","No accidents reported, 1 Owner","$29,013"
-Toyota RAV4,2021,"24,164 miles","White exterior, Gray interior","No accidents reported, 1 Owner","$29,005"
-Toyota Camry,2014,"89,428 miles","Gray exterior, Black interior","1 accident reported, 3 Owners","$15,998"
-Ram 1500 Classic,2022,"5,833 miles","White exterior, Black interior","No accidents reported, 1 Owner","$23,720"
-Honda CR-V,2020,"27,752 miles","White exterior, Black interior","1 accident reported, 1 Owner","$25,998"
-Ford Edge,2017,"89,932 miles","Black exterior, Black interior","No accidents reported, 2 Owners","$13,998"
-Mercedes-Benz A-Class,2019,"28,010 miles","Silver exterior, Black interior","2 accidents reported, 2 Owners","$25,440"
-Hyundai Santa Fe,2023,"6,659 miles","Blue exterior, Black interior","No accidents reported, 1 Owner","$32,998"
-Nissan Rogue,2015,"63,000 miles","Silver exterior, Black interior","No accidents reported, 2 Owners","$13,988"
-Toyota Tacoma,2023,"10,359 miles","Green exterior, Black interior","No accidents reported, 1 Owner","$41,125"
-Toyota Camry,2021,"20,182 miles","Gray exterior, Black interior","1 accident reported, 1 Owner","$22,995"
-Toyota Corolla,2011,"101,056 miles","White exterior, Gray interior","No accidents reported, 2 Owners","$9,991"
-Ford Explorer,2021,"29,187 miles","Blue exterior, Black interior","No accidents reported, 1 Owner","$39,988"
-Toyota RAV4,2021,"18,456 miles","Silver exterior, Black interior","No accidents reported, 1 Owner","$30,987"
-Alfa Romeo Giulia,2022,55 miles,"Blue exterior, Black interior","No accidents reported, 1 Owner","$30,541"
-Mazda CX-5,2022,"6,242 miles","Red exterior, Black interior","1 accident reported, 1 Owner","$28,891"
-Hyundai Sonata,2013,"95,775 miles","Silver exterior, Gray interior","No accidents reported, 2 Owners","$13,998"
-BMW 5 Series,2023,"4,341 miles","White exterior, Black interior","No accidents reported, 1 Owner","$51,825"
-Honda Civic,2019,"68,276 miles","Gray exterior, Black interior","1 accident reported, 3 Owners","$16,399"
-Mercedes-Benz GLE,2020,"54,309 miles","Gray exterior, Black interior","No accidents reported, 1 Owner","$33,999"
-Mercedes-Benz CLK,2007,"104,809 miles","Silver exterior, Black interior","1 accident reported, 4 Owners","$8,895"
-Mercedes-Benz C-Class,2021,"29,334 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$30,592"
-BMW X3,2021,"21,749 miles","White exterior, Beige interior","No accidents reported, 1 Owner","$30,999"
-Honda HR-V,2018,"38,144 miles","Gray exterior, Black interior","No accidents reported, 1 Owner","$18,080"
-Mercedes-Benz GLB,2021,"18,407 miles","Blue exterior, Beige interior","No accidents reported, 1 Owner","$30,990"
-Hyundai Elantra,2020,"23,960 miles","Gray exterior, Black interior","No accidents reported, 2 Owners","$15,779"
-Subaru Outback,2023,"2,220 miles","White exterior, Gray interior","No accidents reported, 1 Owner","$38,600"
-Mercedes-Benz CLA,2023,"9,735 miles","White exterior, Black interior","No accidents reported, 1 Owner","$37,815"
-Ford Bronco,2022,"10,611 miles","Black exterior, Unknown interior","No accidents reported, 1 Owner","$46,997"
-Lexus UX,2021,"31,903 miles","White exterior, Black interior","1 accident reported, 1 Owner","$27,980"
-Nissan Sentra,2019,"50,045 miles","Gray exterior, Black interior","No accidents reported, 2 Owners","$16,998"
-Lexus LX,2018,"60,028 miles","White exterior, Red interior","3 accidents reported, 1 Owner","$53,998"
-Jeep Wrangler,2019,"58,038 miles","White exterior, Black interior","No accidents reported, 3 Owners","$27,998"
-Nissan Kicks,2021,"25,829 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$18,991"
-Hyundai Elantra,2020,"23,960 miles","Gray exterior, Black interior","No accidents reported, 2 Owners","$15,779"
-Mazda Mazda3,2018,"67,973 miles","Red exterior, Black interior","1 accident reported, 2 Owners","$17,998"
-Lexus UX,2021,"30,621 miles","Silver exterior, Black interior","No accidents reported, 1 Owner","$30,333"
-Ford Focus,2014,"105,879 miles","Red exterior, White interior","1 accident reported, 3 Owners","$7,798"
-Mazda CX-5,2021,"22,943 miles","Blue exterior, Black interior","No accidents reported, 1 Owner","$23,896"
-Subaru Outback,2023,"5,011 miles","White exterior, Gray interior","No accidents reported, 1 Owner","$35,300"
-Lexus CT,2015,"39,273 miles","White exterior, Black interior","1 accident reported, 2 Owners","$22,998"
-Mercedes-Benz GLB,2023,"16,847 miles","White exterior, Black interior","No accidents reported, 1 Owner","$32,999"
-Mercedes-Benz E-Class,2015,"94,434 miles","Silver exterior, Black interior","No accidents reported, 2 Owners","$17,495"
-Alfa Romeo Giulia,2022,55 miles,"Black exterior, Black interior","No accidents reported, 1 Owner","$30,541"
-Toyota Camry,2012,"96,502 miles","Red exterior, Gray interior","2 accidents reported, 4 Owners","$14,998"
-Toyota Corolla,2020,"51,445 miles","White exterior, Black interior","No accidents reported, 3 Owners","$18,998"
-Audi A3,2023,615 miles,"Black exterior, Black interior","No accidents reported, 1 Owner","$34,995"
-Mercedes-Benz GLC,2023,"9,390 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$52,880"
-BMW X5,2020,"50,716 miles","White exterior, Black interior","1 accident reported, 1 Owner","$35,998"
-BMW X5,2011,"105,424 miles","White exterior, Unknown interior","3 accidents reported, 2 Owners","$9,995"
-Honda CR-V,2014,"70,956 miles","Gray exterior, Gray interior","1 accident reported, 1 Owner","$13,499"
-Audi A3,2023,"2,717 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$33,500"
-Jeep Cherokee,2020,"63,703 miles","White exterior, Black interior","No accidents reported, 2 Owners","$18,991"
-Toyota Venza,2014,"113,327 miles","Silver exterior, Gray interior","2 accidents reported, 4 Owners","$14,599"
-Audi S7,2022,"16,155 miles","White exterior, Red interior","1 accident reported, 2 Owners","$73,865"
-Jaguar F-PACE,2020,"36,276 miles","Black exterior, Unknown interior","No accidents reported, 1 Owner","$32,498"
-Maserati Levante,2021,"30,972 miles","White exterior, Brown interior","No accidents reported, 1 Owner","$41,775"
-Porsche Macan,2020,"18,629 miles","White exterior, Black interior","No accidents reported, 1 Owner","$39,998"
-Hyundai Elantra,2016,"96,953 miles","Black exterior, Black interior","1 accident reported, 3 Owners","$8,995"
-Toyota Camry,2021,"65,107 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$20,666"
-Mercedes-Benz E-Class,2005,"107,275 miles","Tan exterior, Gray interior","2 accidents reported, 3 Owners","$6,495"
-Toyota Camry,2020,"49,179 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$21,995"
-Mercedes-Benz GLB,2021,"35,704 miles","White exterior, Black interior","No accidents reported, 1 Owner","$28,987"
-BMW X5,2021,"38,845 miles","Black exterior, Unknown interior","No accidents reported, 1 Owner","$41,998"
-Mercedes-Benz A-Class,2019,"34,366 miles","Black exterior, Black interior","1 accident reported, 3 Owners","$21,987"
-Kia Sportage,2020,"17,869 miles","Gray exterior, Black interior","No accidents reported, 1 Owner","$17,444"
-BMW 3 Series,2017,"59,572 miles","White exterior, Brown interior","No accidents reported, 3 Owners","$18,999"
-Ford Mustang,2015,"107,676 miles","Orange exterior, Black interior","No accidents reported, 2 Owners","$14,300"
-Ford F-150,2019,"44,978 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$30,795"
-Mercedes-Benz GLA,2020,"46,300 miles","Black exterior, Black interior","1 accident reported, 2 Owners","$22,000"
-Ford Fusion,2018,"63,730 miles","White exterior, Black interior","No accidents reported, 3 Owners","$16,998"
-Honda Civic,2019,"33,111 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$19,999"
-GMC Sierra 1500,2021,"20,382 miles","Gray exterior, Black interior","No accidents reported, 1 Owner","$46,995"
-Mazda CX-5,2019,"92,172 miles","Gray exterior, Black interior","2 accidents reported, 1 Owner","$15,995"
-Mercedes-Benz E-Class,2020,"38,110 miles","Silver exterior, Black interior","No accidents reported, 3 Owners","$32,595"
-Honda Civic,2017,"26,208 miles","Gray exterior, Black interior","No accidents reported, 1 Owner","$23,998"
-Toyota Camry,2019,"37,498 miles","White exterior, Black interior","2 accidents reported, 1 Owner","$23,998"
-Jeep Wrangler,2021,"25,948 miles","Black exterior, Black interior","No accidents reported, 2 Owners","$41,152"
-Kia Forte,2021,"19,080 miles","Gray exterior, Black interior","No accidents reported, 1 Owner","$18,587"
-Subaru Forester,2014,"103,854 miles","White exterior, Gray interior","1 accident reported, 2 Owners","$12,495"
-Porsche Cayman,2006,"70,805 miles","White exterior, Unknown interior","No accidents reported, 2 Owners","$26,919"
-Chevrolet Silverado 1500 LTD,2022,"50,071 miles","White exterior, Black interior","1 accident reported, 1 Owner","$36,998"
-Lexus LS,2014,"173,788 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$17,995"
-Toyota Camry,2021,"41,792 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$27,081"
-Land Rover Range Rover Sport,2014,"94,800 miles","Black exterior, Unknown interior","2 accidents reported, 2 Owners","$21,995"
-Toyota RAV4,2020,"43,497 miles","White exterior, Black interior","No accidents reported, 1 Owner","$24,991"
-Jeep Wrangler,2018,"67,262 miles","White exterior, Black interior","1 accident reported, 3 Owners","$24,998"
-Mercedes-Benz GLC,2021,"29,755 miles","Gray exterior, Beige interior","No accidents reported, 1 Owner","$29,933"
-Subaru Crosstrek,2021,"51,073 miles","Yellow exterior, Black interior","No accidents reported, 1 Owner","$24,998"
-Nissan Kicks,2020,"27,213 miles","Red exterior, Black interior","No accidents reported, 2 Owners","$16,886"
-Dodge Grand Caravan,2019,"54,821 miles","White exterior, Black interior","No accidents reported, 2 Owners","$20,998"
-Nissan Quest,2015,"90,699 miles","White exterior, Gray interior","1 accident reported, 2 Owners","$9,995"
-Volvo XC90,2020,"55,536 miles","White exterior, Beige interior","No accidents reported, 1 Owner","$43,163"
-Toyota C-HR,2021,"59,626 miles","White exterior, Black interior","No accidents reported, 1 Owner","$21,400"
-Mercedes-Benz C-Class,2021,"27,643 miles","White exterior, Black interior","No accidents reported, 1 Owner","$30,806"
-Land Rover Range Rover Evoque,2012,"95,743 miles","White exterior, White interior","No accidents reported, 2 Owners","$13,995"
-Mercedes-Benz GLE,2021,"41,592 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$36,991"
-Alfa Romeo Stelvio,2022,63 miles,"Black exterior, Black interior","No accidents reported, 1 Owner","$31,072"
-Volkswagen Tiguan,2021,"30,519 miles","Silver exterior, Black interior","No accidents reported, 1 Owner","$18,967"
-Volvo XC90,2021,"28,560 miles","Gray exterior, Black interior","No accidents reported, 1 Owner","$38,994"
-Dodge Challenger,2014,"33,306 miles","Black exterior, Gray interior","No accidents reported, 2 Owners","$24,998"
-Chrysler Pacifica,2018,"84,586 miles","White exterior, Black interior","No accidents reported, 1 Owner","$21,998"
-Volkswagen Jetta,2020,"50,867 miles","Gray exterior, Black interior","No accidents reported, 1 Owner","$16,331"
-Cadillac CTS,2016,"97,626 miles","White exterior, Beige interior","1 accident reported, 3 Owners","$14,900"
-Toyota Camry,2021,"25,826 miles","Blue exterior, Black interior","No accidents reported, 1 Owner","$20,995"
-Chevrolet Camaro,2012,"86,277 miles","Silver exterior, Gray interior","1 accident reported, 5 Owners","$11,999"
-Kia Forte,2023,"10,189 miles","Gray exterior, Black interior","No accidents reported, 1 Owner","$21,991"
-Mercedes-Benz E-Class,2021,"13,384 miles","White exterior, White interior","No accidents reported, 1 Owner","$40,745"
-Toyota RAV4,2022,"44,258 miles","Silver exterior, Unknown interior","No accidents reported, 1 Owner","$24,788"
-Toyota Camry,2018,"31,396 miles","Silver exterior, Gray interior","No accidents reported, 2 Owners","$21,998"
-Toyota Venza,2021,"14,150 miles","Blue exterior, Black interior","No accidents reported, 1 Owner","$32,000"
-Toyota Camry,2014,"90,348 miles","White exterior, Gray interior","No accidents reported, 1 Owner","$15,998"
-Jeep Wrangler,2012,"42,222 miles","Black exterior, Black interior","1 accident reported, 1 Owner","$21,677"
-Nissan Rogue,2021,"92,871 miles","Gray exterior, Black interior","No accidents reported, 1 Owner","$19,998"
-Toyota Corolla,2021,"69,530 miles","Silver exterior, Black interior","No accidents reported, 1 Owner","$17,993"
-Toyota Camry,2023,"19,660 miles","Gray exterior, Black interior","No accidents reported, 1 Owner","$23,935"
-Porsche Boxster,2016,"42,202 miles","Black exterior, Black interior","1 accident reported, 2 Owners","$40,912"
-Toyota Prius,2016,"66,828 miles","White exterior, Gray interior","1 accident reported, 2 Owners","$20,998"
-Ford Escape,2017,"114,000 miles","Gold exterior, Black interior","1 accident reported, 2 Owners","$8,490"
-Toyota Highlander,2021,"27,089 miles","Gray exterior, Black interior","No accidents reported, 1 Owner","$39,995"
-Volkswagen Atlas,2019,"38,711 miles","White exterior, Black interior","No accidents reported, 1 Owner","$25,998"
-Chevrolet Impala,2019,"52,582 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$17,498"
-Mercedes-Benz E-Class,2015,"61,719 miles","Silver exterior, Black interior","No accidents reported, 2 Owners","$18,500"
-Ford Fusion,2017,"114,722 miles","White exterior, Black interior","No accidents reported, 4 Owners","$11,995"
-Chevrolet Colorado,2021,"30,455 miles","Black exterior, Black interior","1 accident reported, 1 Owner","$23,333"
-Lexus LS,2014,"173,788 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$17,995"
-Volkswagen Tiguan,2021,"37,798 miles","Silver exterior, Black interior","1 accident reported, 1 Owner","$22,454"
-Kia Sedona,2016,"122,368 miles","Silver exterior, Gray interior","No accidents reported, 1 Owner","$13,998"
-Dodge Charger,2021,"53,353 miles","Gray exterior, Black interior","1 accident reported, 1 Owner","$19,999"
-Toyota Tacoma,2019,"31,914 miles","White exterior, Black interior","No accidents reported, 1 Owner","$42,998"
-Lexus RX,2020,"29,135 miles","Gray exterior, Beige interior","No accidents reported, 1 Owner","$36,225"
-Toyota Tacoma,2021,"37,852 miles","Silver exterior, Black interior","No accidents reported, 1 Owner","$39,998"
-Chevrolet Silverado 1500,2021,"104,561 miles","White exterior, Black interior","1 accident reported, 3 Owners","$31,998"
-Lexus NX,2021,"65,710 miles","Silver exterior, Black interior","No accidents reported, 1 Owner","$23,991"
-Hyundai Elantra,2020,"60,791 miles","Black exterior, Gray interior","No accidents reported, 1 Owner","$14,088"
-Volkswagen Atlas,2019,"28,165 miles","Silver exterior, Black interior","No accidents reported, 1 Owner","$27,998"
-Mercedes-Benz GLA,2021,"37,490 miles","Black exterior, Black interior","No accidents reported, 1 Owner","$28,757"
-Toyota 4Runner,2021,"62,820 miles","Red exterior, Black interior","No accidents reported, 1 Owner","$27,600"
-Toyota Corolla,2021,"21,209 miles","Red exterior, Black interior","1 accident reported, 1 Owner","$22,993"
-Chevrolet Corvette,2023,"2,088 miles","Silver exterior, Black interior","No accidents reported, 1 Owner","$93,000"
-Mercedes-Benz GLA,2021,"39,860 miles","Silver exterior, Black interior","No accidents reported, 1 Owner","$26,965"
-Honda Civic,2012,"120,288 miles","Unknown exterior, Unknown interior","No accidents reported, 0 Owners","$7,995"
-Chevrolet Silverado 1500,2023,"6,779 miles","Gray exterior, Black interior","No accidents reported, 1 Owner","$58,890"
-BMW X3,2020,"30,012 miles","Black exterior, Black interior","2 accidents reported, 1 Owner","$25,991"
-Honda Civic,2018,"77,068 miles","White exterior, Gray interior","No accidents reported, 3 Owners","$14,987"
-Hyundai Sonata,2013,"82,904 miles","Silver exterior, Gray interior","No accidents reported, 2 Owners","$10,995"
-Acura MDX,2020,"18,666 miles","White exterior, Black interior","No accidents reported, 1 Owner","$29,896"
+year,miles,price,brand,color_exterior,color_interior,accidents,number_of_owners
+2023,7911.0,20989.0,Chevrolet,Black,Black,0.0,1.0
+2023,2521.0,32995.0,Audi,Black,Black,0.0,1.0
+2019,69689.0,23400.0,Ford,Blue,Black,0.0,2.0
+2021,20466.0,30763.0,BMW,Black,Black,0.0,1.0
+2014,119943.0,4495.0,Ford,White,Unknown,0.0,3.0
+2017,113292.0,19998.0,Acura,White,Black,0.0,1.0
+2021,25347.0,42999.0,BMW,Blue,Black,0.0,1.0
+2023,25.0,38844.0,Alfa Romeo,White,Black,0.0,1.0
+2018,111955.0,17885.0,Dodge,Black,Black,1.0,3.0
+2023,8957.0,25777.0,Chevrolet,Gray,Black,0.0,0.0
+2014,133384.0,16650.0,Chevrolet,White,Unknown,0.0,1.0
+2021,45301.0,19291.0,Toyota,White,Gray,0.0,1.0
+2021,8006.0,38998.0,Toyota,Gray,Gray,0.0,1.0
+2022,39844.0,15199.0,Kia,White,Black,0.0,1.0
+2013,87335.0,9990.0,Volkswagen,White,Black,0.0,1.0
+2010,135592.0,7999.0,Mercedes-Benz,Black,Black,0.0,2.0
+2013,124932.0,11268.0,Honda,Black,Black,2.0,5.0
+2020,18548.0,19995.0,Honda,White,Unknown,0.0,1.0
+2015,56614.0,17850.0,Scion,Yellow,Black,2.0,2.0
+2020,32544.0,19498.0,Toyota,Blue,Black,0.0,1.0
+2020,35626.0,22998.0,Ford,White,Unknown,1.0,1.0
+2023,7663.0,39777.0,Mercedes-Benz,Gray,Black,0.0,1.0
+2015,94434.0,17495.0,Mercedes-Benz,Silver,Black,0.0,2.0
+2013,34829.0,15998.0,MINI,Blue,Black,0.0,2.0
+2021,60534.0,14488.0,Nissan,Gray,Gray,0.0,1.0
+2021,16462.0,35037.0,Toyota,White,Beige,0.0,1.0
+2020,53669.0,33995.0,Ford,White,Gray,0.0,1.0
+2019,50045.0,16998.0,Nissan,Gray,Black,0.0,2.0
+2020,38367.0,35998.0,Chevrolet,Black,Black,1.0,1.0
+2023,12459.0,19991.0,Kia,Gray,Black,0.0,1.0
+2019,48190.0,43998.0,Ford,White,Brown,0.0,1.0
+2020,44280.0,25606.0,Ford,White,Beige,0.0,1.0
+2015,13366.0,18100.0,Subaru,White,Gray,0.0,1.0
+2023,25442.0,47991.0,Lexus,Black,Beige,0.0,1.0
+2023,6290.0,33500.0,Subaru,Silver,Black,0.0,1.0
+2013,98042.0,11600.0,Toyota,Silver,Gray,1.0,1.0
+2021,41440.0,27888.0,Dodge,Black,Black,0.0,2.0
+2020,29350.0,21998.0,Chevrolet,Gray,Black,1.0,1.0
+2024,3459.0,50491.0,Mazda,Red,White,0.0,1.0
+2022,63673.0,52400.0,Chevrolet,Gray,Black,0.0,1.0
+2021,41030.0,18999.0,Volkswagen,Gray,Black,0.0,1.0
+2020,12789.0,22998.0,Ford,White,Gray,0.0,1.0
+2021,11709.0,35999.0,BMW,Gray,Black,0.0,1.0
+2014,84884.0,22995.0,Land Rover,White,White,0.0,1.0
+2010,170124.0,6994.0,Toyota,Black,Gray,1.0,1.0
+2019,117204.0,19999.0,Toyota,White,Gray,1.0,1.0
+2018,12876.0,28598.0,Subaru,White,Black,0.0,1.0
+2023,5533.0,52292.0,BMW,White,Brown,0.0,1.0
+2019,92186.0,13290.0,Ford,White,Black,0.0,2.0
+2012,97196.0,11850.0,Mercedes-Benz,Silver,Black,1.0,3.0
+2012,86277.0,11999.0,Chevrolet,Silver,Gray,1.0,5.0
+2020,64488.0,24497.0,Jeep,Black,Black,0.0,1.0
+2023,4980.0,35900.0,Subaru,White,Beige,0.0,1.0
+2014,79433.0,22988.0,Cadillac,White,Beige,0.0,2.0
+2019,67648.0,22999.0,Mercedes-Benz,Black,Black,0.0,2.0
+2021,19205.0,38998.0,Lexus,Black,Unknown,2.0,1.0
+2017,42051.0,29998.0,Honda,Silver,Black,0.0,1.0
+2019,91274.0,29980.0,Ford,White,Brown,0.0,1.0
+2020,26610.0,20998.0,Chevrolet,White,Gray,0.0,1.0
+2021,19229.0,29991.0,BMW,White,Black,1.0,1.0
+2020,55536.0,43163.0,Volvo,White,Beige,0.0,1.0
+2023,6882.0,53983.0,Porsche,White,Black,0.0,1.0
+2021,64916.0,18694.0,Toyota,Black,Black,0.0,1.0
+2021,64971.0,16289.0,Chevrolet,Blue,Black,0.0,1.0
+2022,18696.0,26991.0,Kia,White,Black,0.0,1.0
+2020,60791.0,14088.0,Hyundai,Black,Gray,0.0,1.0
+2020,40394.0,26828.0,Subaru,Black,Gray,0.0,1.0
+2017,62839.0,17563.0,Mercedes-Benz,Gray,Black,1.0,2.0
+2020,53724.0,16790.0,Volkswagen,White,Black,1.0,1.0
+2020,28980.0,19795.0,Chevrolet,Black,Black,0.0,1.0
+2022,34565.0,19293.0,Toyota,Silver,Black,1.0,1.0
+2021,7228.0,29046.0,Mercedes-Benz,Black,Black,0.0,1.0
+2021,15539.0,23349.0,Subaru,Black,Gray,0.0,1.0
+2020,18786.0,29440.0,Mercedes-Benz,White,Beige,0.0,1.0
+2018,104556.0,28998.0,Jeep,Blue,Black,0.0,1.0
+2022,5335.0,26495.0,Ford,Black,Black,1.0,1.0
+2023,4341.0,51825.0,BMW,White,Black,0.0,1.0
+2014,76436.0,21499.0,Jeep,White,Black,2.0,1.0
+2020,27814.0,20987.0,Hyundai,Silver,Black,0.0,1.0
+2018,110923.0,17888.0,Honda,Black,Black,0.0,2.0
+2021,13758.0,21995.0,Ford,Gray,Gray,0.0,1.0
+2021,29450.0,22731.0,Toyota,White,Black,0.0,1.0
+2020,34328.0,30998.0,Ford,Blue,Black,0.0,1.0
+2021,41419.0,24999.0,Subaru,White,Gray,0.0,1.0
+2019,70897.0,29998.0,Ford,Blue,Black,0.0,1.0
+2022,10805.0,25995.0,Honda,Blue,Unknown,0.0,1.0
+2017,57090.0,22500.0,Mercedes-Benz,Black,Red,1.0,3.0
+2021,40208.0,36998.0,Audi,Black,Black,0.0,1.0
+2021,32130.0,29419.0,Mercedes-Benz,Gray,Black,0.0,1.0
+2020,32972.0,22143.0,Honda,Gray,Black,0.0,1.0
+2021,60994.0,25995.0,Jeep,Silver,Black,0.0,1.0
+2017,39086.0,18998.0,Mazda,Gray,Black,1.0,2.0
+2019,33975.0,23998.0,Mazda,White,Beige,0.0,2.0
+2022,17313.0,39566.0,Jeep,Black,Black,0.0,1.0
+2014,78962.0,12495.0,Kia,Black,Black,1.0,2.0
+2022,21000.0,28998.0,Subaru,Red,Black,0.0,2.0
+2018,82734.0,42998.0,Dodge,Black,Black,0.0,2.0
+2020,36197.0,22991.0,Honda,Black,Black,1.0,2.0
+2014,84574.0,13795.0,Ford,Black,Black,1.0,2.0
+2021,37193.0,34998.0,Ford,Black,Gray,1.0,2.0
+2021,27856.0,41997.0,Mercedes-Benz,Black,Black,0.0,1.0
+2023,5688.0,34600.0,Subaru,Silver,Gray,0.0,1.0
+2021,26852.0,32998.0,Ford,White,Black,0.0,1.0
+2020,36853.0,23998.0,Toyota,Gray,Black,1.0,1.0
+2012,94871.0,16980.0,Jeep,White,Black,0.0,2.0
+2021,35442.0,24998.0,Honda,White,Unknown,0.0,1.0
+2021,30621.0,30333.0,Lexus,Silver,Black,0.0,1.0
+2017,26208.0,23998.0,Honda,Gray,Black,0.0,1.0
+2023,3837.0,41886.0,Mercedes-Benz,Gray,Gray,0.0,1.0
+2016,54042.0,25998.0,Audi,Blue,Black,1.0,4.0
+2022,23799.0,42998.0,Jeep,White,Brown,0.0,1.0
+2016,78768.0,21999.0,BMW,Gray,Brown,1.0,2.0
+2021,27605.0,19995.0,Toyota,White,Black,0.0,1.0
+2013,79328.0,13599.0,Volkswagen,White,Unknown,1.0,4.0
+2020,27318.0,20998.0,Ford,Black,Gray,0.0,1.0
+2020,29921.0,30989.0,Land Rover,Black,Black,0.0,2.0
+2021,30560.0,33500.0,Volkswagen,Silver,Brown,2.0,1.0
+2019,27160.0,33998.0,Toyota,Gray,Black,2.0,1.0
+2022,26521.0,28468.0,Ford,Gray,Black,0.0,1.0
+2022,17868.0,20299.0,Toyota,Black,Black,0.0,1.0
+2017,110677.0,15995.0,Jeep,Black,Black,1.0,2.0
+2022,29182.0,19998.0,Nissan,Gray,Black,1.0,2.0
+2019,73055.0,18998.0,Volkswagen,White,Black,0.0,1.0
+2012,122285.0,14998.0,Honda,Gray,Gray,0.0,1.0
+2016,97626.0,14900.0,Cadillac,White,Beige,1.0,3.0
+2018,43907.0,39876.0,Cadillac,Red,Black,0.0,2.0
+2020,63028.0,12471.0,Kia,Gray,Black,0.0,1.0
+2015,63000.0,13988.0,Nissan,Silver,Black,0.0,2.0
+2023,5609.0,35479.0,Subaru,White,Gray,0.0,1.0
+2022,47087.0,17999.0,Toyota,Black,Unknown,0.0,2.0
+2018,55367.0,24166.0,Mercedes-Benz,White,Black,0.0,2.0
+2021,61178.0,16998.0,Nissan,Gray,Black,1.0,1.0
+2021,37997.0,26449.0,Subaru,White,Brown,0.0,1.0
+2022,36066.0,20799.0,Ford,Gray,Gray,0.0,1.0
+2022,28188.0,26998.0,Honda,White,Black,0.0,1.0
+2021,29490.0,71222.0,Land Rover,Silver,Brown,0.0,1.0
+2019,72455.0,17998.0,Mitsubishi,Black,Black,0.0,2.0
+2023,6869.0,30750.0,Mazda,Blue,Black,0.0,1.0
+2020,55376.0,36998.0,Mercedes-Benz,White,Black,0.0,1.0
+2017,70468.0,20998.0,BMW,Gray,Black,0.0,2.0
+2014,42423.0,41998.0,Chevrolet,Black,Black,0.0,1.0
+2020,39232.0,33998.0,Audi,White,Black,2.0,1.0
+2020,72921.0,19495.0,Mercedes-Benz,Black,Black,1.0,1.0
+2017,25561.0,18998.0,Chevrolet,Red,Black,0.0,1.0
+2015,67246.0,9990.0,Kia,Gray,Gray,1.0,1.0
+2018,44533.0,21998.0,Honda,Black,Black,0.0,1.0
+2018,30035.0,19998.0,Hyundai,Gray,Beige,0.0,1.0
+2019,83063.0,17963.0,Volkswagen,Red,Beige,0.0,1.0
+2022,9842.0,44774.0,Mercedes-Benz,White,Black,0.0,1.0
+2023,3590.0,24480.0,Honda,Unknown,Gray,0.0,1.0
+2022,22376.0,28067.0,Honda,Black,Black,0.0,1.0
+2021,22440.0,45997.0,Mercedes-Benz,White,Black,0.0,1.0
+2021,35759.0,24899.0,Honda,White,Beige,0.0,1.0
+2021,29755.0,29933.0,Mercedes-Benz,Gray,Beige,0.0,1.0
+2020,27094.0,18591.0,Nissan,White,Black,0.0,1.0
+2005,107275.0,6495.0,Mercedes-Benz,Tan,Gray,2.0,3.0
+2021,28977.0,29998.0,Mercedes-Benz,Black,Black,0.0,1.0
+2022,5086.0,21488.0,Chevrolet,White,Black,0.0,1.0
+2007,94629.0,9999.0,Mercedes-Benz,Unknown,Unknown,0.0,3.0
+2019,23240.0,25998.0,Jeep,White,Black,0.0,1.0
+2019,30202.0,26989.0,Volvo,Black,Black,0.0,2.0
+2021,49191.0,18994.0,Toyota,Unknown,Unknown,0.0,1.0
+2019,13314.0,16555.0,Hyundai,Black,Beige,0.0,1.0
+2022,34735.0,52997.0,Ford,White,Black,0.0,1.0
+2021,9624.0,42892.0,Mercedes-Benz,Red,Beige,0.0,1.0
+2023,2220.0,38600.0,Subaru,White,Gray,0.0,1.0
+2020,25927.0,24998.0,Honda,Black,Black,0.0,1.0
+2021,26203.0,16995.0,Kia,Black,Black,0.0,1.0
+2018,20700.0,31998.0,Jeep,Gray,Black,0.0,2.0
+2021,25327.0,69987.0,Dodge,Gray,Red,2.0,1.0
+2018,11043.0,28998.0,Toyota,Blue,Black,0.0,2.0
+2009,150862.0,5980.0,Toyota,Gray,Gray,0.0,1.0
+2020,17869.0,17444.0,Kia,Gray,Black,0.0,1.0
+2014,103796.0,9499.0,Chevrolet,Black,Black,0.0,1.0
+2020,16111.0,29998.0,INFINITI,Black,Gray,0.0,1.0
+2019,45870.0,29998.0,Toyota,Black,Black,1.0,1.0
+2021,38015.0,31400.0,Toyota,White,Gray,1.0,2.0
+2022,27894.0,29999.0,Mercedes-Benz,Gray,Gray,0.0,2.0
+2021,26118.0,24991.0,Mercedes-Benz,White,Black,0.0,1.0
+2015,67764.0,19998.0,Mercedes-Benz,White,Unknown,0.0,4.0
+2014,81607.0,14995.0,Land Rover,Black,Black,0.0,2.0
+2011,112325.0,8495.0,BMW,Black,Black,1.0,3.0
+2021,32110.0,32998.0,Jeep,White,Black,0.0,1.0
+2020,31532.0,20064.0,Toyota,Black,Black,0.0,2.0
+2021,25621.0,29498.0,BMW,Black,Black,0.0,1.0
+2016,88063.0,17998.0,Honda,Silver,Black,1.0,3.0
+2021,21043.0,17941.0,Kia,Blue,Black,0.0,1.0
+2022,17593.0,27419.0,Honda,Black,Black,0.0,1.0
+2021,63499.0,16000.0,Toyota,White,Gray,0.0,1.0
+2014,76699.0,16449.0,Acura,Gray,Unknown,0.0,1.0
+2022,88.0,30459.0,Alfa Romeo,Gray,Black,0.0,1.0
+2021,18407.0,30990.0,Mercedes-Benz,Blue,Beige,0.0,1.0
+2016,97076.0,12987.0,BMW,Gray,Red,1.0,2.0
+2020,68463.0,43598.0,BMW,Blue,Black,0.0,2.0
+2015,113479.0,19998.0,Toyota,Silver,Black,0.0,1.0
+2021,63699.0,33900.0,Ford,White,Black,0.0,1.0
+2020,50975.0,21120.0,Ford,White,Beige,0.0,1.0
+2021,37321.0,31329.0,Mercedes-Benz,White,Black,1.0,1.0
+2020,42885.0,27994.0,Jeep,Black,Black,0.0,1.0
+2017,51853.0,22158.0,Subaru,Blue,Brown,0.0,1.0
+2020,43468.0,22000.0,Subaru,White,Gray,0.0,1.0
+2021,51073.0,24998.0,Subaru,Yellow,Black,0.0,1.0
+2014,70956.0,13499.0,Honda,Gray,Gray,1.0,1.0
+2021,14875.0,21998.0,Toyota,White,Black,0.0,2.0
+2015,57707.0,27998.0,BMW,White,Black,0.0,3.0
+2019,63070.0,17500.0,Audi,Black,Black,0.0,1.0
+2019,60490.0,28998.0,Honda,Brown,Gray,1.0,4.0
+2015,146100.0,7500.0,Kia,Black,Beige,0.0,3.0
+2017,62567.0,17889.0,Subaru,Gray,Gray,1.0,2.0
+2021,63819.0,20599.0,Chrysler,Black,Black,0.0,1.0
+2018,86034.0,21998.0,Cadillac,Black,Black,0.0,1.0
+2019,50950.0,20998.0,Volkswagen,Gray,Black,0.0,1.0
+2014,139011.0,6995.0,Jeep,Gray,Gray,0.0,2.0
+2021,30283.0,31187.0,Honda,Black,Black,1.0,1.0
+2020,41508.0,24689.0,Acura,Black,Black,0.0,1.0
+2018,59515.0,22998.0,Mercedes-Benz,Black,Black,0.0,2.0
+2019,88155.0,14450.0,Nissan,White,Black,0.0,3.0
+2015,30778.0,14790.0,Toyota,Black,Black,1.0,2.0
+2023,2414.0,25998.0,Honda,White,Black,0.0,1.0
+2021,18982.0,27993.0,Audi,Gray,Black,0.0,1.0
+2020,4339.0,39460.0,Mercedes-Benz,White,Black,0.0,1.0
+2021,49141.0,26035.0,Honda,White,Beige,0.0,1.0
+2021,6006.0,42987.0,Ram,White,Black,0.0,1.0
+2015,110746.0,9495.0,Chrysler,Black,Black,0.0,3.0
+2020,23475.0,16995.0,Kia,Red,Black,1.0,1.0
+2021,65107.0,20666.0,Toyota,Black,Black,0.0,1.0
+2022,53358.0,17888.0,Toyota,Blue,Black,0.0,1.0
+2020,38029.0,20998.0,Chevrolet,White,Black,0.0,1.0
+2023,26309.0,27994.0,Toyota,Silver,Black,0.0,1.0
+2020,19543.0,26889.0,Mercedes-Benz,Silver,Beige,0.0,1.0
+2018,74038.0,15998.0,Ford,Gray,Gray,0.0,1.0
+2018,51323.0,29998.0,Jeep,Black,Black,0.0,2.0
+2023,14627.0,22995.0,Toyota,White,Unknown,0.0,1.0
+2021,18949.0,26489.0,Honda,White,Black,0.0,1.0
+2016,75635.0,16998.0,BMW,White,Black,0.0,1.0
+2017,82088.0,26995.0,Land Rover,Black,Unknown,1.0,2.0
+2020,34298.0,34998.0,Lexus,Blue,Gray,0.0,1.0
+2015,104728.0,15891.0,Honda,White,Unknown,0.0,4.0
+2014,130330.0,10299.0,Honda,Black,Beige,2.0,2.0
+2020,12733.0,20995.0,Ford,White,Black,0.0,1.0
+2013,77674.0,12900.0,BMW,Black,Beige,2.0,4.0
+2020,48726.0,44603.0,Land Rover,Black,Unknown,0.0,2.0
+2020,15778.0,24000.0,MINI,Gray,Black,0.0,1.0
+2017,124407.0,8995.0,Dodge,Black,Black,0.0,2.0
+2019,52053.0,12490.0,Nissan,White,Black,0.0,3.0
+2019,61318.0,26998.0,Honda,Black,Brown,0.0,1.0
+2008,79559.0,11795.0,Pontiac,Black,Black,0.0,5.0
+2018,40223.0,12999.0,Hyundai,Silver,Gray,0.0,3.0
+2021,34855.0,17655.0,Kia,White,Black,2.0,1.0
+2017,48992.0,16200.0,FIAT,Gray,Black,0.0,2.0
+2017,110560.0,10986.0,Chevrolet,White,Black,1.0,1.0
+2013,106382.0,8995.0,Kia,White,Beige,2.0,2.0
+2021,41233.0,32197.0,Chevrolet,White,Black,1.0,2.0
+2022,55.0,30541.0,Alfa Romeo,Blue,Black,0.0,1.0
+2023,4202.0,50838.0,Mercedes-Benz,Blue,Black,0.0,1.0
+2014,31757.0,22998.0,INFINITI,Gray,Gray,0.0,2.0
+2021,39860.0,26965.0,Mercedes-Benz,Silver,Black,0.0,1.0
+2020,36904.0,28545.0,Acura,Gray,Black,0.0,1.0
+2021,40688.0,21257.0,Honda,White,Black,1.0,1.0
+2019,84793.0,17998.0,Jeep,Black,Black,1.0,3.0
+2012,91988.0,12495.0,Honda,Black,Gray,0.0,1.0
+2020,23841.0,27995.0,Ford,White,Black,0.0,1.0
+2023,6091.0,36462.0,Audi,Black,Black,0.0,1.0
+2021,45700.0,21700.0,Jeep,Silver,Black,0.0,1.0
+2017,100531.0,20998.0,Acura,White,Brown,0.0,2.0
+2021,63321.0,18794.0,Toyota,White,Gray,1.0,1.0
+2018,97560.0,31998.0,Chevrolet,Gray,Black,0.0,3.0
+2019,39599.0,18998.0,Hyundai,White,Gray,0.0,2.0
+2015,81726.0,16998.0,Mazda,Gray,Black,0.0,2.0
+2013,171456.0,10495.0,Toyota,Black,Unknown,0.0,2.0
+2019,76075.0,13995.0,Ford,Black,Gray,0.0,1.0
+2018,77042.0,12999.0,Toyota,Black,Black,3.0,1.0
+2022,18137.0,33520.0,Toyota,White,Gray,0.0,1.0
+2019,61099.0,39998.0,Ford,Gray,Gray,0.0,1.0
+2020,60921.0,22000.0,BMW,Black,Beige,0.0,1.0
+2021,25671.0,40998.0,Toyota,Gray,Black,0.0,1.0
+2016,71406.0,16498.0,Honda,Gray,Gray,1.0,2.0
+2023,6742.0,37776.0,Mercedes-Benz,Gray,Black,0.0,2.0
+2021,24754.0,32797.0,Toyota,Gray,Black,0.0,1.0
+2016,42396.0,28998.0,Audi,White,Black,0.0,3.0
+2020,9949.0,33988.0,Chevrolet,Black,Black,0.0,1.0
+2021,40995.0,59888.0,Mercedes-Benz,White,Black,0.0,1.0
+2014,100630.0,10798.0,Volkswagen,White,Black,0.0,1.0
+2019,28269.0,10795.0,Nissan,Gray,Black,2.0,3.0
+2013,97773.0,17998.0,Honda,Gray,Gray,0.0,1.0
+2019,62675.0,17777.0,Jeep,Red,Black,1.0,3.0
+2021,29919.0,20995.0,Toyota,Black,Black,0.0,1.0
+2022,43839.0,14999.0,Kia,White,Black,0.0,1.0
+2018,27646.0,26260.0,Jeep,Red,Black,1.0,2.0
+2021,74700.0,16642.0,Toyota,White,Black,0.0,2.0
+2020,29189.0,28946.0,Mercedes-Benz,White,Beige,0.0,2.0
+2020,25887.0,27411.0,BMW,Silver,Black,0.0,1.0
+2020,10093.0,35666.0,Toyota,Silver,Black,1.0,1.0
+2021,35704.0,28987.0,Mercedes-Benz,White,Black,0.0,1.0
+2015,75078.0,16998.0,Honda,Blue,Black,0.0,4.0
+2018,94426.0,13987.0,Nissan,Silver,Gray,0.0,4.0
+2022,38484.0,18498.0,Toyota,Blue,Black,0.0,1.0
+2023,1193.0,32995.0,Audi,Black,Black,0.0,1.0
+2014,173788.0,17995.0,Lexus,Black,Black,0.0,1.0
+2020,7685.0,63728.0,Karma,Black,Black,0.0,1.0
+2016,26660.0,64250.0,Chevrolet,White,Black,0.0,5.0
+2017,138015.0,13999.0,Lexus,Unknown,Unknown,1.0,2.0
+2019,50496.0,18998.0,Hyundai,Blue,Black,0.0,2.0
+2020,14991.0,21998.0,Ford,White,Gray,0.0,1.0
+2020,21350.0,16995.0,Chevrolet,Gray,Gray,0.0,1.0
+2016,103378.0,8400.0,Kia,Purple,Beige,0.0,4.0
+2017,53043.0,12991.0,Kia,White,Black,1.0,2.0
+2020,28266.0,21620.0,Subaru,White,Black,0.0,1.0
+2021,16386.0,35756.0,Mercedes-Benz,Black,Black,0.0,1.0
+2020,63703.0,18991.0,Jeep,White,Black,0.0,2.0
+2023,1008.0,32995.0,Audi,Black,Black,0.0,1.0
+2020,24655.0,29998.0,BMW,Black,Beige,0.0,1.0
+2022,8554.0,21988.0,Nissan,White,Black,0.0,1.0
+2021,107431.0,21999.0,Ram,Blue,Brown,1.0,1.0
+2016,69891.0,22998.0,Mercedes-Benz,White,Gray,1.0,1.0
+2021,36510.0,29995.0,BMW,White,Black,0.0,1.0
+2022,86.0,35298.0,Alfa Romeo,White,Black,0.0,1.0
+2020,20520.0,30900.0,Lexus,Black,Black,0.0,1.0
+2016,65687.0,17998.0,Mazda,White,Black,0.0,2.0
+2021,33075.0,25500.0,Subaru,Black,Black,0.0,1.0
+2021,49339.0,36498.0,BMW,Black,Black,0.0,1.0
+2018,38894.0,22444.0,Jaguar,Gray,Beige,0.0,3.0
+2014,94800.0,21995.0,Land Rover,Black,Unknown,2.0,2.0
+2020,46571.0,17495.0,Honda,Red,Black,0.0,2.0
+2021,22073.0,17856.0,Kia,Gray,Black,1.0,1.0
+2021,41229.0,18500.0,Toyota,White,Black,0.0,1.0
+2021,52821.0,22501.0,Honda,Silver,Black,0.0,1.0
+2023,10581.0,47000.0,Buick,White,Black,0.0,1.0
+2021,30455.0,23333.0,Chevrolet,Black,Black,1.0,1.0
+2023,2266.0,32995.0,Audi,Black,Black,0.0,1.0
+2017,96286.0,16888.0,Toyota,Black,Black,0.0,2.0
+2015,25995.0,25995.0,Land Rover,Unknown,Unknown,0.0,5.0
+2023,3670.0,31894.0,Audi,Black,Black,0.0,1.0
+2018,33118.0,36295.0,Chevrolet,Black,Black,0.0,1.0
+2018,76896.0,35998.0,GMC,White,Black,1.0,1.0
+2021,27163.0,41433.0,Mercedes-Benz,Black,Black,0.0,1.0
+2016,58912.0,18998.0,Hyundai,Silver,Gray,0.0,1.0
+2020,58381.0,19998.0,Ford,White,Gray,0.0,2.0
+2019,31066.0,22799.0,Subaru,Gray,Gray,0.0,1.0
+2018,61983.0,19649.0,Subaru,Orange,Black,0.0,2.0
+2015,65361.0,11500.0,Volkswagen,Silver,Black,0.0,3.0
+2022,9641.0,70988.0,GMC,Black,White,0.0,2.0
+2020,34296.0,37998.0,Chevrolet,White,Black,0.0,1.0
+2021,52184.0,28485.0,Honda,Gray,Unknown,0.0,1.0
+2019,44978.0,30795.0,Ford,Black,Black,0.0,1.0
+2022,42477.0,36500.0,Toyota,Silver,Gray,0.0,2.0
+2022,7437.0,19988.0,Buick,Black,Black,0.0,1.0
+2020,20556.0,30998.0,Mercedes-Benz,Black,Black,0.0,1.0
+2021,38512.0,25998.0,Kia,Silver,Black,0.0,1.0
+2020,38340.0,17400.0,Nissan,White,Black,0.0,2.0
+2018,54169.0,48919.0,Porsche,Black,Black,0.0,2.0
+2019,82313.0,26998.0,Jeep,White,Black,2.0,1.0
+2021,59756.0,36998.0,Ford,White,Gray,0.0,2.0
+2022,40867.0,20998.0,Chevrolet,White,Gray,0.0,1.0
+2016,82472.0,23998.0,Jeep,Black,Black,0.0,1.0
+2017,96774.0,17998.0,Ford,Silver,Unknown,0.0,3.0
+2004,90679.0,10900.0,Ford,White,Gray,0.0,1.0
+2021,18696.0,23598.0,Honda,Silver,Gray,0.0,1.0
+2023,114.0,48995.0,Chevrolet,White,Black,0.0,1.0
+2019,72649.0,41998.0,Ford,White,Black,0.0,1.0
+2023,10359.0,41125.0,Toyota,Green,Black,0.0,1.0
+2013,69036.0,12995.0,Kia,Silver,Beige,1.0,1.0
+2020,33202.0,34998.0,Jaguar,Gray,Black,0.0,1.0
+2012,96502.0,14998.0,Toyota,Red,Gray,2.0,4.0
+2024,5699.0,34800.0,Subaru,Silver,Gray,0.0,1.0
+2021,30707.0,31500.0,Lexus,White,Red,0.0,1.0
+2018,48895.0,22995.0,Jeep,Gray,Black,2.0,1.0
+2022,54626.0,13950.0,Nissan,Black,Black,0.0,1.0
+2020,33059.0,37999.0,BMW,White,Black,0.0,1.0
+2016,127909.0,13750.0,Honda,Silver,Unknown,0.0,2.0
+2019,129303.0,13999.0,Dodge,White,Black,0.0,2.0
+2018,93999.0,12998.0,Chevrolet,White,Gray,0.0,1.0
+2022,10225.0,29998.0,Mazda,Gray,Black,0.0,2.0
+2022,10301.0,34649.0,Honda,White,Black,0.0,1.0
+2021,10868.0,23991.0,Nissan,Red,Black,0.0,1.0
+2016,56564.0,26998.0,BMW,White,Black,1.0,3.0
+2023,5293.0,23999.0,Subaru,White,Gray,0.0,1.0
+2020,26763.0,22591.0,Mercedes-Benz,White,Beige,0.0,1.0
+2019,55465.0,17998.0,Kia,Silver,Black,2.0,4.0
+2020,28846.0,18998.0,Hyundai,White,Beige,0.0,1.0
+2020,9494.0,26795.0,Ford,Gray,Black,0.0,1.0
+2020,54654.0,22998.0,Volkswagen,Blue,Black,0.0,1.0
+2020,52955.0,20998.0,Volkswagen,Silver,Black,0.0,1.0
+2017,84165.0,16500.0,Subaru,Red,Gray,0.0,1.0
+2022,33541.0,43379.0,BMW,Gray,Beige,0.0,1.0
+2021,22778.0,26999.0,Mercedes-Benz,Black,Black,0.0,1.0
+2023,7499.0,39777.0,Mercedes-Benz,Black,Black,0.0,1.0
+2010,110394.0,8499.0,Toyota,Gray,Black,1.0,1.0
+2017,60253.0,38595.0,Mercedes-Benz,Unknown,Unknown,0.0,1.0
+2021,40810.0,23998.0,Mazda,Gray,Red,0.0,1.0
+2021,9443.0,17995.0,Kia,Red,Black,0.0,1.0
+2015,86935.0,15998.0,Kia,White,Beige,0.0,1.0
+2021,19080.0,18587.0,Kia,Gray,Black,0.0,1.0
+2022,32668.0,19998.0,Chevrolet,Gray,Gray,0.0,1.0
+2021,85851.0,31990.0,Ram,Silver,Gray,0.0,2.0
+2020,26064.0,20500.0,Honda,Gray,Black,0.0,1.0
+2016,95999.0,25987.0,GMC,White,Brown,0.0,3.0
+2021,16775.0,40222.0,Toyota,Red,Black,0.0,1.0
+2011,108492.0,19987.0,Mercedes-Benz,Black,Black,2.0,4.0
+2019,66896.0,28624.0,BMW,Black,Black,0.0,1.0
+2014,110915.0,13695.0,Toyota,Gray,Gray,0.0,3.0
+2018,93594.0,16998.0,Hyundai,Gray,Black,0.0,1.0
+2019,28165.0,27998.0,Volkswagen,Silver,Black,0.0,1.0
+2021,61537.0,17988.0,Toyota,Unknown,Black,0.0,1.0
+2021,32197.0,14990.0,Toyota,White,Black,0.0,1.0
+2014,89332.0,12989.0,Mercedes-Benz,Black,Brown,0.0,3.0
+2011,157099.0,9999.0,GMC,Black,Black,0.0,3.0
+2022,36517.0,16499.0,Chevrolet,Silver,Black,0.0,1.0
+2022,27692.0,34020.0,Mercedes-Benz,Black,Black,0.0,1.0
+2019,39358.0,26986.0,Mercedes-Benz,Black,Black,0.0,2.0
+2017,76815.0,27500.0,Toyota,Black,Gray,1.0,3.0
+2019,34211.0,22998.0,Ford,Silver,Black,0.0,1.0
+2022,27530.0,26700.0,Dodge,Black,Black,0.0,1.0
+2016,103207.0,21995.0,Chevrolet,White,Black,0.0,2.0
+2022,31031.0,18500.0,Kia,White,Black,0.0,1.0
+2020,74943.0,15995.0,Nissan,Gray,Black,1.0,3.0
+2020,16112.0,20998.0,Honda,White,Beige,0.0,1.0
+2021,21135.0,20998.0,Toyota,Gray,Gray,0.0,1.0
+2014,99018.0,14495.0,Ford,White,Gray,0.0,1.0
+2019,33270.0,24000.0,Jaguar,White,Unknown,0.0,2.0
+2014,103854.0,12495.0,Subaru,White,Gray,1.0,2.0
+2019,17904.0,36987.0,Maserati,White,Black,0.0,1.0
+2023,6315.0,44868.0,Mercedes-Benz,White,Black,0.0,1.0
+2019,34366.0,21987.0,Mercedes-Benz,Black,Black,1.0,3.0
+2018,20185.0,19998.0,Nissan,Silver,Black,0.0,1.0
+2022,6647.0,49999.0,BMW,Blue,Black,0.0,1.0
+2021,10999.0,25656.0,Kia,Red,Black,0.0,1.0
+2021,34576.0,26510.0,Mercedes-Benz,Blue,Black,0.0,3.0
+2022,25.0,33684.0,Alfa Romeo,Red,Black,0.0,1.0
+2021,32009.0,24381.0,Honda,Gray,Black,2.0,1.0
+2019,43481.0,17998.0,Volkswagen,White,Black,0.0,2.0
+2022,55.0,30541.0,Alfa Romeo,Black,Black,0.0,1.0
+2013,98885.0,9500.0,Ford,White,Gray,0.0,1.0
+2021,19989.0,25800.0,Subaru,Green,Gray,0.0,2.0
+2020,25894.0,22598.0,Honda,White,Beige,1.0,1.0
+2020,8924.0,33998.0,Ram,Black,Black,0.0,1.0
+2019,89075.0,10995.0,Mitsubishi,Black,Black,1.0,3.0
+2019,26989.0,44395.0,Land Rover,White,Unknown,0.0,1.0
+2022,46567.0,62887.0,Land Rover,White,Black,0.0,1.0
+2021,42815.0,19759.0,Jeep,White,Black,0.0,1.0
+2021,22166.0,26998.0,Ford,Black,Black,0.0,2.0
+2024,2455.0,31999.0,Subaru,Gray,Gray,0.0,1.0
+2019,36380.0,19998.0,Honda,Blue,Gray,0.0,2.0
+2022,44666.0,20998.0,Nissan,Gray,Gray,2.0,1.0
+2019,53113.0,15695.0,Kia,Gray,Black,0.0,1.0
+2018,84208.0,10995.0,Chevrolet,White,Black,0.0,3.0
+2021,28753.0,21239.0,Nissan,Gray,Black,0.0,1.0
+2013,103297.0,11995.0,BMW,Silver,Black,0.0,1.0
+2022,11987.0,36999.0,BMW,White,Black,1.0,1.0
+2021,56108.0,17988.0,Kia,Black,Black,0.0,1.0
+2020,32049.0,59998.0,Land Rover,Green,Green,0.0,1.0
+2021,61250.0,15891.0,Nissan,Gray,Gray,0.0,1.0
+2023,7439.0,39880.0,Mercedes-Benz,White,Beige,0.0,2.0
+2023,6321.0,51187.0,BMW,White,Black,0.0,1.0
+2021,38845.0,41998.0,BMW,Black,Unknown,0.0,1.0
+2019,70631.0,16220.0,Toyota,Gray,Black,1.0,2.0
+2023,6659.0,32998.0,Hyundai,Blue,Black,0.0,1.0
+2018,50180.0,28333.0,Audi,White,Brown,1.0,2.0
