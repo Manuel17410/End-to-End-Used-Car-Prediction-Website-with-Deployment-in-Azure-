@@ -1,5 +1,5 @@
 import sys  # Used to access system-specific information, including exception details
-from source.logging import logging  # Assumes logging functionality is defined elsewhere for structured error logging
+from source.custom_logging import logging  # Assumes logging functionality is defined elsewhere for structured error logging
 
 # Function to generate a detailed error message
 def error_message_detail(error, error_detail: sys):
