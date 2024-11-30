@@ -6,8 +6,8 @@ from source.custom_logging import logging
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
 from source.componentes.data_processing import DataProcessing
-from source.componentes.model_builder import ModelTrainerConfig
-from source.componentes.model_builder import ModelTrainer
+from source.componentes.model_builder import ModelBuilderConfiguration
+from source.componentes.model_builder import ModelBuilder
 
 @dataclass
 class DataLoaderConfiguration:
@@ -62,7 +62,7 @@ if __name__ == "__main__":
 
     logging.info(f"Data processing completed. Preprocessor saved at: {preprocessor_path}")
 
-    modeltrainer=ModelTrainer()
+    modeltrainer=ModelBuilder()
     print(modeltrainer.initiate_model_trainer(train_arr,test_arr))
 
     
