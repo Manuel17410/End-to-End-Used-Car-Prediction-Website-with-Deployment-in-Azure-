@@ -21,14 +21,13 @@ def predict_datapoint():
         return render_template('home.html')
     else:
         data=CustomData(
-            year=request.form.get('year'),
-            miles=request.form.get('miles'),
+            year = float(request.form.get('year') or 2000),
+            miles = float(request.form.get('miles') or 0),
             brand=request.form.get('brand'),
-            lunch=request.form.get('lunch'),
             color_exterior=request.form.get('color_exterior'),
-            number_of_owners=request.form.get('number_of_owners'),
-            color_interior=float(request.form.get('color_interior')),
-            accidents=float(request.form.get('accidents'))
+            number_of_owners=float(request.form.get('number_of_owners') or 0),
+            color_interior=request.form.get('color_interior'),
+            accidents=float(request.form.get('accidents') or 0)
 
         )
         pred_df=data.get_data_as_data_frame()
