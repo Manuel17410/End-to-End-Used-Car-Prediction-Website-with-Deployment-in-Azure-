@@ -1,1 +1,74 @@
-<h1>Welcome to the home page</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Price Predictor</title>
+</head>
+<body>
+    <div class="login">
+        <h1>Student Exam Performance Indicator</h1>
+
+        <form action="{{ url_for('predict_datapoint') }}" method="post">
+            <h1>
+                <legend>Student Exam Performance Prediction</legend>
+            </h1>
+            <div class="mb-3">
+                <label class="form-label">Brand</label>
+                <select class="form-control" name="brand" required>
+                    <option class="placeholder" selected disabled value="">Select your Brand</option>
+                    <option value="Toyota">Toyota</option>
+                    <option value="Honda">Honda</option>
+                    <option value="Mercedes-Benz">Mercedes-Benz</option>
+                    <option value="BMW">BMW</option>
+                    <!-- Add other brands as needed -->
+                </select>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Exterior Color</label>
+                <select class="form-control" name="color_exterior" required>
+                    <option class="placeholder" selected disabled value="">Select Exterior Color</option>
+                    <option value="Silver">Silver</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Black">Black</option>
+                    <!-- Add other colors as needed -->
+                </select>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Interior Color</label>
+                <select class="form-control" name="color_interior" required>
+                    <option class="placeholder" selected disabled value="">Select Interior Color</option>
+                    <option value="Unknown">Unknown</option>
+                    <option value="Black">Black</option>
+                    <option value="Beige">Beige</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Select the year from 2000 on</label>
+                <input class="form-control" type="number" name="year" placeholder="Select the year" min="2000" max="2024" required />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Select the number of miles</label>
+                <input class="form-control" type="number" name="miles" placeholder="Select the number of miles" min="0" max="200000" required />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Number of accidents</label>
+                <input class="form-control" type="number" name="accidents" placeholder="Number of accidents" min="0" max="5" required />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Number of owners</label>
+                <input class="form-control" type="number" name="number_of_owners" placeholder="Number of owners" min="0" max="7" required />
+            </div>
+            <div class="mb-3">
+                <input class="btn btn-primary" type="submit" value="Predict the car's price" />
+            </div>
+        </form>
+        <h2>
+            {% if results %}
+                The prediction is {{ results }}
+            {% else %}
+                Submit the form to see the prediction.
+            {% endif %}
+        </h2>
+    </div>
+</body>
+</html>
+
