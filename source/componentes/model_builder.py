@@ -17,12 +17,15 @@ from xgboost import XGBRegressor
 from source.exception import CustomException
 from source.custom_logging import logging
 
+# Utility functions for saving models and evaluating them
 from source.utils import save_object,evaluate_models
 
+# Using a dataclass to define file paths for saving models
 @dataclass
 class ModelBuilderConfiguration:
     trained_model_file_path=os.path.join("artifacts","model.pkl")
 
+# ModelBuilder class is responsible for training and saving the best model
 class ModelBuilder:
     def __init__(self):
         self.model_trainer_config=ModelBuilderConfiguration()
@@ -30,6 +33,7 @@ class ModelBuilder:
 
     def initiate_model_trainer(self,train_array,test_array):
         try:
+            # Split input data into training and testing sets
             logging.info("Split training and test input data")
             X_train,y_train,X_test,y_test=(
                 train_array[:,:-1],
@@ -37,6 +41,8 @@ class ModelBuilder:
                 test_array[:,:-1],
                 test_array[:,-1]
             )
+
+            # Define the models to train
             models = {
                 "Random Forest": RandomForestRegressor(),
                 "Decision Tree": DecisionTreeRegressor(),
@@ -45,6 +51,8 @@ class ModelBuilder:
                 "XGBRegressor": XGBRegressor(),
                 "AdaBoost Regressor": AdaBoostRegressor(),
             }
+
+            # Hyperparameters for tuning each mode
             params={
                 "Decision Tree": {
                     'criterion':['squared_error', 'friedman_mse', 'absolute_error', 'poisson'],
@@ -79,6 +87,7 @@ class ModelBuilder:
                 
             }
 
+            # Evaluate the models using the defined hyperparameters
             model_report:dict=evaluate_models(X_train=X_train,y_train=y_train,X_test=X_test,y_test=y_test,
                                              models=models,param=params)
             

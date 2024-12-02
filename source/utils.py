@@ -8,17 +8,21 @@ import pickle
 from sklearn.metrics import r2_score
 from sklearn.model_selection import GridSearchCV
 
-# Add the root directory of your project to sys.path
+# root directory of your project to sys.path to make imports easier
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))) 
 
 from source.exception import CustomException
 
+# save_object function is responsible for serializing (saving) Python objects into a file.
 def save_object(file_path, obj):
     try:
+        # Get the directory path where the object will be saved
         dir_path = os.path.dirname(file_path)
-
+        
+        # Create the directory if it does not exist
         os.makedirs(dir_path, exist_ok=True)
 
+       # Open the file in write-binary mode and save the object using pickle
         with open(file_path, "wb") as file_obj:
             pickle.dump(obj, file_obj)
 
@@ -27,6 +31,7 @@ def save_object(file_path, obj):
     
 def evaluate_models(X_train, y_train,X_test,y_test,models,param):
     try:
+        # Initialize a report dictionary to store model evaluation scores
         report = {}
 
         for i in range(len(list(models))):

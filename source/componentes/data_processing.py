@@ -1,31 +1,38 @@
-from sklearn.compose import ColumnTransformer
-from sklearn.impute import SimpleImputer
-from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import OneHotEncoder, StandardScaler
+# Importing necessary libraries for data transformation and preprocessing
+
+from sklearn.compose import ColumnTransformer # Used to apply different transformations to different subsets of features
+from sklearn.impute import SimpleImputer # For filling missing values in the dataset
+from sklearn.pipeline import Pipeline # To streamline the process of applying transformations
+from sklearn.preprocessing import OneHotEncoder, StandardScaler # For encoding categorical data and scaling numerical data
 import numpy as np
 import pandas as pd
 import os
 import sys
 from source.exception import CustomException
 from source.custom_logging import logging
-from source.utils import save_object
-from dataclasses import dataclass
+from source.utils import save_object  # Function to save objects (like transformers) to disk
+from dataclasses import dataclass  # For creating configuration classes with default values
 
+# Data class to store configuration settings for data processing, such as the path for saving the preprocessor object
 @dataclass
 class DataProcessingConfiguration:
-    preprocessor_obj_file_path = os.path.join('artifacts', "preprocessor.pkl")
+    preprocessor_obj_file_path = os.path.join('artifacts', "preprocessor.pkl") # Path for saving the preprocessing object
 
-
+# DataProcessing class that handles all transformations on the dataset
 class DataProcessing:
     def __init__(self):
+        # Initialize the configuration for data transformation (preprocessor object path)
         self.data_transformation_config = DataProcessingConfiguration()
 
+    # Method to create and return the data transformer (preprocessor) object
     def get_data_transformer_object(self):
         try:
             numerical_columns = ["year", "miles", "accidents", "number_of_owners"]
             categorical_columns = ["brand", "color_exterior", "color_interior"]
 
-            # Pipeline for numerical data
+            # Define a pipeline for numerical columns:
+            # - Impute missing values using median
+            # - Scale the data using StandardScaler
             num_pipeline = Pipeline(
                 steps=[
                     ("imputer", SimpleImputer(strategy="median")),
@@ -33,7 +40,10 @@ class DataProcessing:
                 ]
             )
 
-            # Pipeline for categorical data
+            # Define a pipeline for categorical columns:
+            # - Impute missing values using the most frequent value
+            # - OneHotEncode the categorical data
+            # - Scale the encoded features using StandardScaler
             cat_pipeline = Pipeline(
                 steps=[
                     ("imputer", SimpleImputer(strategy="most_frequent")),
@@ -45,19 +55,21 @@ class DataProcessing:
             logging.info(f"Categorical columns: {categorical_columns}")
             logging.info(f"Numerical columns: {numerical_columns}")
 
-            # Combine pipelines into a ColumnTransformer
+            # Combine both numerical and categorical pipelines using ColumnTransformer
             preprocessor = ColumnTransformer(
                 [
-                    ("num_pipeline", num_pipeline, numerical_columns),
-                    ("cat_pipeline", cat_pipeline, categorical_columns)
+                    ("num_pipeline", num_pipeline, numerical_columns), # Apply numerical pipeline on numerical columns
+                    ("cat_pipeline", cat_pipeline, categorical_columns) # Apply categorical pipeline on categorical columns
                 ]
             )
 
+            # Return the combined preprocessor object
             return preprocessor
 
         except Exception as e:
             raise CustomException(e, sys)
 
+    # Method to initiate data processing on the train and test datasets
     def initiate_DataProcessing(self, train_path, test_path):
         try:
             # Load train and test datasets
@@ -65,7 +77,7 @@ class DataProcessing:
             test_df = pd.read_csv(test_path)
             logging.info("Successfully loaded train and test datasets.")
 
-            # Get the preprocessing object
+            # Get the preprocessor object that handles transformations
             preprocessing_obj = self.get_data_transformer_object()
 
             target_column_name = "price"
@@ -85,7 +97,7 @@ class DataProcessing:
             input_feature_train_arr = preprocessing_obj.fit_transform(input_feature_train_df)
             input_feature_test_arr = preprocessing_obj.transform(input_feature_test_df)
 
-            # Convert sparse arrays to dense arrays if applicable
+            # Convert sparse arrays to dense arrays 
             if hasattr(input_feature_train_arr, "toarray"):
                 input_feature_train_arr = input_feature_train_arr.toarray()
             if hasattr(input_feature_test_arr, "toarray"):
@@ -111,6 +123,10 @@ class DataProcessing:
 
         except Exception as e:
             raise CustomException(e, sys)
+
+
+
+
 
 
 
