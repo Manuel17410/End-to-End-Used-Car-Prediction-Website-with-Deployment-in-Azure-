@@ -34,6 +34,11 @@
         .form-control {
             margin-bottom: 15px; /* More spacing between fields */
         }
+        /* Scrollbar for long dropdowns */
+        select.form-control {
+            max-height: 150px; /* Adjust height as needed */
+            overflow-y: auto;
+        }
         .btn-primary {
             width: 100%;
             padding: 12px;
@@ -65,7 +70,6 @@
 
         <form action="{{ url_for('predict_datapoint') }}" method="post">
 
-            
            <!-- Brand Dropdown -->
             <div class="mb-3">
                 <label class="form-label">Brand</label>
@@ -197,4 +201,5 @@
 
 </body>
 </html>
+
 
