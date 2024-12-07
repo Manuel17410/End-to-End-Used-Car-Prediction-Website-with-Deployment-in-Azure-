@@ -14,6 +14,7 @@ The Project contains the following code files that will be shortly explained:
 * model_builder.py
 * prediction_pipeline.py
 * home.html
+* appy.py
 
 ## Resources Used
 
@@ -74,20 +75,17 @@ This script trains different machine learning models on the processed data, usin
 
 It loads a pre-trained model and preprocessor from files, scales the input features, and returns predictions based on the processed data. The `CustomData` class stores user-provided car data (like year, miles, accidents, etc.) and converts it into a `pandas` DataFrame for prediction. Both classes include error handling with a custom exception (`CustomException`) to manage failures during their operations.
 
+## home.html
 
+It defines the FrontEnd using HTML. 
 
+## app.py
 
+This code defines a Flask web application with two routes: the home page (`/`) and a prediction page (`/predictdata`). The home page renders an HTML template (`index.html`), while the prediction page handles both GET and POST requests. For POST requests, it collects user input (e.g., car details), creates a `CustomData` object, and uses a `PredictPipeline` to generate predictions. The results are then displayed on the same page. The application runs in debug mode on any available IP address.
 
+## Website
 
+The app was deployed in Azure : https://predictionofusedcarsprices-hqd7g4engkggcbb4.canadaeast-01.azurewebsites.net/
+However, for some reason that I am still researching, it fails to give a prediction.
 
-
-
-
-
-
-
-
-
-
-
-https://predictionofusedcarsprices-hqd7g4engkggcbb4.canadaeast-01.azurewebsites.net/
+If it is run thorugh using Visual , it works perfecly
