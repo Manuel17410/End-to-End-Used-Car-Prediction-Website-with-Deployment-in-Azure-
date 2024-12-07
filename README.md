@@ -89,9 +89,9 @@ The app was deployed in Azure : https://predictionofusedcarsprices-hqd7g4engkggc
 However, for some reason  that I am still researching sometimes it fails to give a prediction.
 
 If it is run thorugh using Visual Studio Code , it works perfecly.
+
 To do that the following steeps have to be followed:
 
-Steps to Open and Run the WebApp
 
     Clone the repository:
         Open a terminal on your local machine.
