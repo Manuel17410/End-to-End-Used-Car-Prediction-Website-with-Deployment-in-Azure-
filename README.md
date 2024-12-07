@@ -86,8 +86,58 @@ This code defines a Flask web application with two routes: the home page (`/`) a
 ## Website
 
 The app was deployed in Azure : https://predictionofusedcarsprices-hqd7g4engkggcbb4.canadaeast-01.azurewebsites.net/
-However, for some reason that I am still researching, it fails to give a prediction.
+However, for some reason  that I am still researching sometimes it fails to give a prediction.
 
-If it is run thorugh using Visual , it works perfecly.
+If it is run thorugh using Visual Studio Code , it works perfecly.
+To do that the following steeps have to be followed:
 
-![Example Image](images/UseCarPricePredictor.png)
+Steps to Open and Run the WebApp
+
+    Clone the repository:
+        Open a terminal on your local machine.
+        Navigate to the directory where you want to clone the repository.
+        Run the following command to clone the repo:
+
+    git clone https://github.com/your-username/your-repo-name.git
+
+    Replace your-username and your-repo-name with the correct GitHub username and repository name.
+
+Navigate to the project folder:
+
+    Change into the cloned repository directory:
+
+    cd your-repo-name
+
+Install necessary dependencies:
+
+    If you haven't already set up the project dependencies, install them by running:
+
+    pip install -r requirements.txt
+
+    Make sure you have a requirements.txt file in the repository that lists all the Python libraries your app depends on.
+
+Open the project in Visual Studio Code:
+
+    Open Visual Studio Code from the terminal by running:
+
+    code .
+
+    This command will open the project in Visual Studio Code.
+
+Run the application:
+
+    In Visual Studio Code, open the terminal (if it's not already open).
+    Run the app by typing:
+
+    python app.py
+
+    This will start your Flask (or any other web framework) application.
+
+Open the app in your browser:
+
+    Once the server is running, open a web browser and go to:
+
+http://127.0.0.1:5000/predictdata
+
+This should open your web app on the local server.
+
