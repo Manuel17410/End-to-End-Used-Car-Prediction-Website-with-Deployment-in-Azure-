@@ -56,7 +56,23 @@ The code defines a custom exception handling system that generates detailed erro
 
 ## utils.py
 
-The `utils.py` file contains utility functions that assist with common tasks throughout the project.It centralizes functionality that is used across different parts of the codebase, helping to keep the main code clean and organized. 
+The utils.py file contains utility functions that assist with common tasks throughout the project.It centralizes functionality that is used across different parts of the codebase, helping to keep the main code clean and organized. 
+
+## data_loader.py
+
+This script handles the process of loading and splitting data into training and testing sets. It first loads a dataset from a CSV file, saves the raw data, and then splits it into training and testing subsets (80-20 split). These subsets are saved to specified file paths, and the paths for the training and testing data are returned for further use.
+
+## data_loader.py
+
+This script is responsible for transforming and preprocessing data. It defines a configuration for saving the preprocessor object and implements a data transformation pipeline for both numerical and categorical columns. It handles imputing missing values, scaling data, and encoding categorical features. It also splits the data into features and target columns, applies the transformations, and saves the preprocessor object for future use.
+
+## model_builder.py
+
+This script trains different machine learning models on the processed data, using a variety of regression algorithms like Random Forest, Decision Tree, and XGBRegressor. It evaluates each model's performance, selects the best model based on its score, and saves this model to a file. The script also computes the R-squared score of the best model on the test set and returns this score.
+
+## predictpipeline.py
+
+It loads a pre-trained model and preprocessor from files, scales the input features, and returns predictions based on the processed data. The `CustomData` class stores user-provided car data (like year, miles, accidents, etc.) and converts it into a `pandas` DataFrame for prediction. Both classes include error handling with a custom exception (`CustomException`) to manage failures during their operations.
 
 
 
