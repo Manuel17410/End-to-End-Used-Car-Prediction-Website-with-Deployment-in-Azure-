@@ -98,15 +98,14 @@ To do that the following steeps have to be followed:
         Navigate to the directory where you want to clone the repository.
         Run the following command to clone the repo:
 
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/Manuel17410/End-to-End-Used-Car-Prediction-Website-with-Deployment-in-Azure-.git
 
-    Replace your-username and your-repo-name with the correct GitHub username and repository name.
 
 Navigate to the project folder:
 
     Change into the cloned repository directory:
 
-    cd your-repo-name
+    cd End-to-End-Used-Car-Prediction-Website-with-Deployment-in-Azure-
 
 Install necessary dependencies:
 
