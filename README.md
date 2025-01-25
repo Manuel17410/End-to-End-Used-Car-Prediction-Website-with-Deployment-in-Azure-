@@ -85,12 +85,7 @@ This code defines a Flask web application with two routes: the home page (`/`) a
 
 ## Website
 
-The app was deployed in Azure : https://predictionofusedcarsprices-hqd7g4engkggcbb4.canadaeast-01.azurewebsites.net/
-However, for some reason  that I am still researching sometimes it fails to give a prediction.
-
-If it is run thorugh using Visual Studio Code , it works perfecly.
-
-To do that the following steeps have to be followed:
+To run it the following steeps have to be followed:
 
 
     Clone the repository:
