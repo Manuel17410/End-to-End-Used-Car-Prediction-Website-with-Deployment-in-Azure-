@@ -104,11 +104,9 @@ Navigate to the project folder:
 
 Install necessary dependencies:
 
-    If you haven't already set up the project dependencies, install them by running:
+    install them by running:
 
     pip install -r requirements.txt
-
-    Make sure you have a requirements.txt file in the repository that lists all the Python libraries your app depends on.
 
 Open the project in Visual Studio Code:
 
